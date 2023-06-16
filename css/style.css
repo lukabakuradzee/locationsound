@@ -154,11 +154,11 @@ ul li a:hover {
 
 /* SECTION 2 CAPABILITIES */
 .section_capabilities {
-  margin: 0 auto 200px;
+  margin: 0 auto;
   padding: 5% 10%;
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .capabilities_text {
@@ -207,5 +207,57 @@ ul li a:hover {
   line-height: 1.3;
 }
 
+/* SECTION ALL SERVICES */
+.section_allservices {
+  margin: 0 auto;
+  padding: 12% 10%;
+  /* border: 2px solid red; */
+}
+
+.allservices_title_box {
+  width: 50%;
+  /* border: 2px solid red; */
+  margin-inline: auto;
+  margin-bottom: 6em;
+}
+
+.allservices_title_box h3 {
+  text-decoration: underline;
+  text-underline-offset: 2em;
+  text-decoration-thickness: 5px;
+  text-align: center;
+  margin-bottom: 4em;
+  
+}
+
+.allservices_title_box h2 {
+  text-align: center;
+}
+
+.all_services_list_box {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+
+}
 
 
+
+.right_angle_icon {
+  color: #F2CE1B;
+}
+
+
+
+.list_div {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  margin-bottom: 1em;
+}
+
+.list_div a {
+  font-family: var(--e-global-typography-secondary-font-family);
+  color: #F2CE1B;
+  font-weight: 200;
+}
