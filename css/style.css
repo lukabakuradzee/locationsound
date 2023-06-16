@@ -15,11 +15,11 @@
     --e-global-typography-accent-font-family: "Oswald";
     --e-global-typography-accent-font-weight: 500;
 
+    --global-fontsize-secondary: 2.5rem;
+    --global-fontsize-accent: 1.5rem;
+
 }
 
-:hover {
-  color: var(--e-global-color-accent);
-}
 
 h1 {
   color: var(--e-global-color-secondary);
@@ -32,12 +32,16 @@ h2 {
    color: var(--e-global-color-secondary);
    font-family: var(--e-global-typography-primary-font-family);
    font-weight: var(--e-global-typography-primary-font-weight);
+   font-size: var(--global-fontsize-secondary);
+   
 }
 
 h3 {
   color: var(--e-global-color-primary);
   font-family: var(--e-global-typography-primary-font-family);
   font-weight: var(--e-global-typography-primary-font-weight);
+  font-size: var(--global-fontsize-accent);
+  
 }
 
 
@@ -55,8 +59,102 @@ button {
   border-color: var(--e-global-color-secondary);
 }
 
+a {
+  font-family: var(--e-global-typography-text-font-family);
+  font-weight: var(--e-global-typography-text-font-weight);
+}
+
 
 
 body {
   background-color: #1C1C1C;
+}
+
+/* WRAPPER CONTAINER */
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  width: 100%;
+
+}
+
+.section1 {
+  padding-inline: 10%;
+  min-height: 600px;
+  background-image: url("../photos/background4.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+  
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+ul li a {
+  font-size: 1.2rem;
+  color: #ffffff;
+  transition: .5s;
+}
+
+ul li a:hover {
+  color: #F2CE1B;
+  text-decoration: underline;
+  text-underline-offset: 0.5em;
+  
+}
+
+.active {
+  color: #F2CE1B;
+}
+
+
+.button_logo {
+  background-color:#F2CE1B;
+  font-size: 2rem;
+  padding: 0.5em 1.2em;
+  cursor: pointer;
+}
+
+.company_title_box {
+  width: 60%;
+  /* border: 2px solid red; */
+}
+
+.about_company_h1 {
+  font-size: 4.688rem;
+  line-height: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+.button_find_out {
+ padding: .3em 1em;
+ color: #F2CE1B;
+ background-color: inherit;
+ transition: 0.5s ease;
+ letter-spacing: 0.2px;
+}
+
+.button_find_out:hover {
+  color: #0C0C0C;
+  background-color: #F2CE1B;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* SECTION 2 CAPABILITIES */
+.section_capabilities {
+  margin: 0 auto;
+  padding: 5% 10%;
+  /* border: 2px solid red; */
 }
