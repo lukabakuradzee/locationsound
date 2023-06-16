@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-  color: var(--e-global-color-primary);
+  color: var(--e-global-color-secondary);
   font-family: var(--e-global-typography-primary-font-family);
   font-weight: var(--e-global-typography-primary-font-weight);
   font-size: var(--global-fontsize-accent);
@@ -154,7 +154,58 @@ ul li a:hover {
 
 /* SECTION 2 CAPABILITIES */
 .section_capabilities {
-  margin: 0 auto;
+  margin: 0 auto 200px;
   padding: 5% 10%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid red;
+}
+
+.capabilities_text {
+  padding-top: 0.5em;
+  width: 100px;
+  border-top: 2px solid #F2CE1B;
+  border-width: 6px;
+  margin-bottom: 1.2em;
+}
+
+.capabilities_box_1 {
+  /* border: 2px solid red; */
+  width: 50%;
+}
+
+.capabilities_photo_box {
+  /* height: 380px; */
+}
+
+.capabilities_photo {
+  width: 100%;
+  height: auto;
+  filter: brightness( 70% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+  transition: 1s ease;
+}
+
+.capabilities_photo:hover {
+  transform: translateY(-5%);
+}
+
+
+
+.capabilities_box2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7.3em;
+  width: 45%;
   /* border: 2px solid red; */
 }
+
+.capabilities_box2 h3 {
+  margin-bottom: 1em;
+}
+
+.capabilities_box2 {
+  line-height: 1.3;
+}
+
+
+
