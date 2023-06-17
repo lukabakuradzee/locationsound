@@ -1,39 +1,34 @@
-
 :root {
-  --e-global-color-primary: #0C0C0C;
-    --e-global-color-secondary: #F2CE1B;
-    --e-global-color-text: #FFFFFF;
-    --e-global-color-accent: #F2A81D;
-    --e-global-color-8040bdf: #1C1C1C;
+  --e-global-color-primary: #0c0c0c;
+  --e-global-color-secondary: #f2ce1b;
+  --e-global-color-text: #ffffff;
+  --e-global-color-accent: #f2a81d;
+  --e-global-color-8040bdf: #1c1c1c;
 
-    --e-global-typography-primary-font-family: "Oswald";
-    --e-global-typography-primary-font-weight: 600;
-    --e-global-typography-secondary-font-family: "Oswald";
-    --e-global-typography-secondary-font-weight: 400;
-    --e-global-typography-text-font-family: "Oswald";
-    --e-global-typography-text-font-weight: 300;
-    --e-global-typography-accent-font-family: "Oswald";
-    --e-global-typography-accent-font-weight: 500;
+  --e-global-typography-primary-font-family: "Oswald";
+  --e-global-typography-primary-font-weight: 600;
+  --e-global-typography-secondary-font-family: "Oswald";
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-typography-text-font-family: "Oswald";
+  --e-global-typography-text-font-weight: 300;
+  --e-global-typography-accent-font-family: "Oswald";
+  --e-global-typography-accent-font-weight: 500;
 
-    --global-fontsize-secondary: 2.5rem;
-    --global-fontsize-accent: 1.5rem;
-
+  --global-fontsize-secondary: 2.5rem;
+  --global-fontsize-accent: 1.5rem;
 }
-
 
 h1 {
   color: var(--e-global-color-secondary);
   font-family: var(--e-global-typography-primary-font-family);
   font-weight: var(--e-global-typography-primary-font-weight);
-
 }
 
 h2 {
-   color: var(--e-global-color-secondary);
-   font-family: var(--e-global-typography-primary-font-family);
-   font-weight: var(--e-global-typography-primary-font-weight);
-   font-size: var(--global-fontsize-secondary);
-   
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-primary-font-family);
+  font-weight: var(--e-global-typography-primary-font-weight);
+  font-size: var(--global-fontsize-secondary);
 }
 
 h3 {
@@ -41,14 +36,12 @@ h3 {
   font-family: var(--e-global-typography-primary-font-family);
   font-weight: var(--e-global-typography-primary-font-weight);
   font-size: var(--global-fontsize-accent);
-  
 }
 
-
 p {
-  color: var(--e-global-color-secondary );
-    font-family: var(--e-global-typography-text-font-family ), Sans-serif;
-    font-weight: var(--e-global-typography-text-font-weight );
+  color: var(--e-global-color-secondary);
+  font-family: var(--e-global-typography-text-font-family), Sans-serif;
+  font-weight: var(--e-global-typography-text-font-weight);
 }
 
 button {
@@ -64,10 +57,8 @@ a {
   font-weight: var(--e-global-typography-text-font-weight);
 }
 
-
-
 body {
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
 }
 
 /* WRAPPER CONTAINER */
@@ -76,7 +67,6 @@ body {
   margin: 0 auto;
   max-width: 1920px;
   width: 100%;
-
 }
 
 .section1 {
@@ -93,7 +83,6 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2em;
-  
 }
 
 .menu {
@@ -104,24 +93,23 @@ header {
 ul li a {
   font-size: 1.2rem;
   color: #ffffff;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 ul li a:hover {
-  color: #F2CE1B;
+  color: #f2ce1b;
   text-decoration: underline;
   text-underline-offset: 0.5em;
-  
 }
 
 .active {
-  color: #F2CE1B;
+  color: #f2ce1b;
 }
 
-
 .button_logo {
-  background-color:#F2CE1B;
+  background-color: #f2ce1b;
   font-size: 2rem;
+  /* padding: 20px 45px; */
   padding: 0.5em 1.2em;
   cursor: pointer;
 }
@@ -138,16 +126,16 @@ ul li a:hover {
 }
 
 .button_find_out {
- padding: .3em 1em;
- color: #F2CE1B;
- background-color: inherit;
- transition: 0.5s ease;
- letter-spacing: 0.2px;
+  padding: 0.3em 1em;
+  color: #f2ce1b;
+  background-color: inherit;
+  transition: 0.5s ease;
+  letter-spacing: 0.2px;
 }
 
 .button_find_out:hover {
-  color: #0C0C0C;
-  background-color: #F2CE1B;
+  color: #0c0c0c;
+  background-color: #f2ce1b;
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -164,7 +152,7 @@ ul li a:hover {
 .capabilities_text {
   padding-top: 0.5em;
   width: 100px;
-  border-top: 2px solid #F2CE1B;
+  border-top: 2px solid #f2ce1b;
   border-width: 6px;
   margin-bottom: 1.2em;
 }
@@ -181,15 +169,13 @@ ul li a:hover {
 .capabilities_photo {
   width: 100%;
   height: auto;
-  filter: brightness( 70% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+  filter: brightness(70%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
   transition: 1s ease;
 }
 
 .capabilities_photo:hover {
   transform: translateY(-5%);
 }
-
-
 
 .capabilities_box2 {
   display: flex;
@@ -227,7 +213,6 @@ ul li a:hover {
   text-decoration-thickness: 5px;
   text-align: center;
   margin-bottom: 4em;
-  
 }
 
 .allservices_title_box h2 {
@@ -235,29 +220,134 @@ ul li a:hover {
 }
 
 .all_services_list_box {
-  /* border: 2px solid red; */
+  padding: 5% 0;
+  border: 2px solid #f2ce1b;
   display: flex;
   justify-content: space-around;
-
 }
-
-
 
 .right_angle_icon {
-  color: #F2CE1B;
+  color: #f2ce1b;
 }
-
-
 
 .list_div {
   display: flex;
   align-items: center;
-  gap: .5em;
+  gap: 0.5em;
   margin-bottom: 1em;
 }
 
 .list_div a {
   font-family: var(--e-global-typography-secondary-font-family);
-  color: #F2CE1B;
+  color: #f2ce1b;
   font-weight: 200;
+}
+
+/* SECTION 4 OUR WORK */
+.section_our_work {
+  margin: 0 auto;
+  /* min-height: 1500px; */
+  background-color: #0c0c0c;
+  padding: 10%;
+  /* border: 2px solid red; */
+  position: relative;
+}
+
+.our_work_text {
+  text-decoration: overline;
+  text-decoration-thickness: 8px;
+  margin-bottom: 2em;
+}
+
+.ourwork_box_1 {
+  width: 60%;
+  margin-bottom: 22em;
+}
+
+.ourwork_photo_box {
+  transition: .5s ease;
+  /* border: 2px solid red; */
+  
+}
+
+.ourwork_photo1 {
+  width: 100%;
+  height: auto;
+  filter: brightness(70%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+  
+}
+
+.ourwork_photo_box:hover {
+  transform: translateY(-5%);
+}
+
+.box_photo2 {
+  width: 40%;
+  z-index: 1;
+  position: absolute;
+  top: -2%;
+  left: 50%;
+  transition:.5s;
+}
+
+.box_photo2:hover {
+  transform: translateY(-5%);
+}
+
+.our_work_photo2 {
+  width: 100%;
+  height: auto;
+}
+
+.box_photo3 {
+  width: 40%;
+  z-index: 2;
+  position: absolute;
+  top: 46%;
+  left: 32%;
+  transition: .5s;
+}
+
+
+.our_work_photo3 {
+  width: 100%;
+  height: auto;
+}
+
+.box_photo3:hover {
+  transform: translateY(-5%);
+}
+
+.box_photo4 {
+  width: 30%;
+  position: absolute;
+  z-index: 3;
+  top: 16%;
+  left: 55%;
+  transition: .5s;
+}
+
+.our_work_photo4 {
+  width: 100%;
+  height: auto;
+}
+
+.box_photo4:hover {
+  transform: translateY(-5%);
+}
+
+.button_view_projects {
+  background-color: inherit;
+  color: #f2ce1b;
+  padding: 0.3em 1em;
+  display: block;
+  margin-inline: auto;
+  transition: 0.5s;
+}
+
+.button_view_projects:hover {
+  transform: translateY(-10%);
+  background-color: #f2ce1b;
+  color: #0c0c0c;
+  cursor: pointer;
 }
