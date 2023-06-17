@@ -460,6 +460,7 @@ ul li a:hover {
   width: 30%;
   /* border: 2px solid red; */
   margin-inline: auto;
+  text-align: center;
 }
 
 .feel_free_box h2 {
@@ -479,5 +480,82 @@ ul li a:hover {
   color: #0c0c0c;
   background-color: #f2ce1b;
   transform: translateY(-5%);
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #1c1c1c;
+  padding: 10%;
+ 
+}
+
+.footer_div_parent {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5em;
+}
+
+.footer_div1 {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+ 
+}
+
+.footer_div1 a {
+  font-size: 1.2rem;
+  color: #f2ce1b;
+  font-weight: 200;
+}
+
+.social_networks {
+  display: flex;
+  place-content: center;
+  gap: 2em;
+  /* border: 2px solid red; */
+}
+
+.facebook, 
+.instagram,
+.twitter,
+.youtube {
+  font-size: 1.2em;
+  border: 1px solid #f2ce1b;
+  border-radius: 50%;
+  padding: 0.5em;
+  color: #f2ce1b;
+  transition: .5s ease;
+
+}
+
+.facebook:hover {
+  background-color: #f2ce1b;
+  color: #0c0c0c;
+  transform: scale(0.9);
+  cursor: pointer;
+
+}
+
+.instagram:hover {
+  background-color: #f2ce1b;
+  color: #0c0c0c;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.twitter:hover {
+  background-color: #f2ce1b;
+  color: #0c0c0c;
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.youtube:hover {
+  background-color: #f2ce1b;
+  color: #0c0c0c;
+  transform: scale(0.9);
   cursor: pointer;
 }
