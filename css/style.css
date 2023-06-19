@@ -1,3 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: #1c1c1c;
+}
+
+
 :root {
   --e-global-color-primary: #0c0c0c;
   --e-global-color-secondary: #f2ce1b;
@@ -59,9 +69,6 @@ a {
   font-weight: var(--e-global-typography-text-font-weight);
 }
 
-body {
-  background-color: #1c1c1c;
-}
 
 /* WRAPPER CONTAINER */
 
@@ -75,7 +82,7 @@ body {
 .section1 {
   padding-inline: 10%;
   min-height: 600px;
-  background-image: url("../photos/background4.jpeg");
+  background-image: url("../photos/Boom_Operator.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -539,7 +546,23 @@ footer {
 .phone_icon {
   font-size: 1.5rem;
   color:  #f2ce1b;
+  transition: .5s;
 
+}
+
+.location_icon:hover {
+  color: #f2a81d;
+  transform: scale(1.1);
+}
+
+.mail_icon:hover {
+  color: #f2a81d;
+  transform: scale(1.1);
+}
+
+.phone_icon:hover {
+  color: #f2a81d;
+  transform: scale(1.2);
 }
 
 
@@ -617,7 +640,7 @@ footer {
 }
 
 
-/* SECTION ABOUT US / HISTORY OF COMPANY */
+/* SECTION 2 ABOUT US / HISTORY OF COMPANY */
 .history_of_company {
   padding: 3%;
   /* border: 2px solid #f2ce1b; */
@@ -630,4 +653,63 @@ footer {
 
 .history_of_company_paragraph {
   line-height: 1.2;
+}
+
+
+/* SERVICES PAGE */
+.section1_services {
+  padding-inline: 10%;
+  min-height: 600px;
+  background-image: url("../photos/background4.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* SECTION 2  */
+
+.section2_services {
+  margin: 0 auto;
+  padding: 10%;
+
+
+}
+
+.section2_services h2 {
+  text-align: center;
+  text-decoration:  underline 1px solid #f2ce1b ;
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 1em;
+  margin-bottom: 3em;
+
+}
+
+.services_box_parent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+}
+
+.service_box_1 {
+  padding: 5%;
+  border: 2px solid #f2ce1b;
+}
+
+.service_box_1:hover {
+  background-color: #f2ce1b;
+}
+
+.service_box_1:hover h3 {
+  color:black;
+  
+}
+
+.service_box_1:hover p {
+  color: black;
+}
+
+.service_box_1 p {
+  margin: 1em 0 1em;
+  line-height: 1.3;
+  
 }
