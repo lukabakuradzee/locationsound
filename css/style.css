@@ -487,21 +487,23 @@ ul li a:hover {
 
 footer {
   background-color: #1c1c1c;
-  padding: 10%;
+  padding: 5%;
  
 }
 
 .footer_div_parent {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  margin-bottom: 5em;
+  row-gap: 3em;
 }
 
 .footer_div1 {
-  width: 32%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  gap: 1em;
+  gap: 2em;
+  /* border: 2px solid red; */
+  place-content: center;
  
 }
 
@@ -511,12 +513,33 @@ footer {
   font-weight: 200;
 }
 
+.div_footer_icons {
+  display: flex;
+  
+}
+
 .social_networks {
   display: flex;
   place-content: center;
   gap: 2em;
   /* border: 2px solid red; */
 }
+
+
+.div_footer_icons {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.location_icon,
+.mail_icon, 
+.phone_icon {
+  font-size: 1.5rem;
+  color:  #f2ce1b;
+
+}
+
 
 .facebook, 
 .instagram,
@@ -558,4 +581,27 @@ footer {
   color: #0c0c0c;
   transform: scale(0.9);
   cursor: pointer;
+}
+
+
+
+/* ABOUT PAGE */
+
+/* SECTION 1  */
+.company_who_we_are  {
+  margin-top: 8em;
+}
+
+.company_who_we_are h2 {
+  text-decoration: overline #f2ce1b 5px;
+  text-overline-offset: 5px;
+  font-size: 2rem;
+  
+
+}
+
+
+.about_company_secnd {
+  font-size: 3.5rem;
+  margin-top: .5em;
 }
