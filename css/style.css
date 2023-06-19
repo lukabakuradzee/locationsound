@@ -698,7 +698,7 @@ footer {
 
 .service_box_1:hover {
   background-color: #f2ce1b;
-  transform: translateY(-5%);
+  transform: scale(1.05);
 }
 
 .service_box_1:hover h3 {
