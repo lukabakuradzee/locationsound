@@ -660,7 +660,7 @@ footer {
 .section1_services {
   padding-inline: 10%;
   min-height: 600px;
-  background-image: url("../photos/background4.jpeg");
+  background-image: url("../photos/back6.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -749,6 +749,7 @@ footer {
   position: relative;
   display: flex;
 }
+
 
 
 
