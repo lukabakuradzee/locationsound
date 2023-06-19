@@ -620,7 +620,7 @@ footer {
 /* SECTION ABOUT US / HISTORY OF COMPANY */
 .history_of_company {
   padding: 3%;
-  border: 2px solid #f2ce1b;
+  /* border: 2px solid #f2ce1b; */
   margin-bottom: 5em;
 }
 
