@@ -69,6 +69,7 @@ body {
   margin: 0 auto;
   max-width: 1920px;
   width: 100%;
+  /* border: 2px solid red; */
 }
 
 .section1 {
@@ -108,11 +109,12 @@ ul li a:hover {
   color: #f2ce1b;
 }
 
-.button_logo {
+.logo {
   background-color: #f2ce1b;
+  color: #0c0c0c;
   font-size: 2rem;
   /* padding: 20px 45px; */
-  padding: 0.5em 1.2em;
+  padding: 1em 1.2em;
   cursor: pointer;
 }
 
@@ -612,4 +614,20 @@ footer {
 .about_company_secnd {
   font-size: 3.5rem;
   margin-top: .5em;
+}
+
+
+/* SECTION ABOUT US / HISTORY OF COMPANY */
+.history_of_company {
+  padding: 3%;
+  border: 2px solid #f2ce1b;
+  margin-bottom: 5em;
+}
+
+.history_of_company h2{
+  margin-bottom: 1em;
+}
+
+.history_of_company_paragraph {
+  line-height: 1.2;
 }
