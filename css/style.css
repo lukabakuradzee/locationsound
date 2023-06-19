@@ -692,13 +692,14 @@ footer {
 
 .service_box_1 {
   padding: 5%;
-  border: 2px solid #f2ce1b;
+  border: 2px solid rgb(242, 206, 28);
   transition: 0.8s;
 }
 
 .service_box_1:hover {
   background-color: #f2ce1b;
-  transform: scale(1.05);
+  transform: scale(1.1);
+ 
 }
 
 .service_box_1:hover h3 {
