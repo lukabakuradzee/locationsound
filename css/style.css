@@ -546,6 +546,7 @@ footer {
 .twitter,
 .youtube {
   font-size: 1.2em;
+  background-color: inherit;
   border: 1px solid #f2ce1b;
   border-radius: 50%;
   padding: 0.5em;
@@ -555,9 +556,9 @@ footer {
 }
 
 .facebook:hover {
-  background-color: #f2ce1b;
+  background-color:  #f2ce1b;
   color: #0c0c0c;
-  transform: scale(0.9);
+  transform: scale(0.8);
   cursor: pointer;
 
 }
@@ -588,13 +589,20 @@ footer {
 /* ABOUT PAGE */
 
 /* SECTION 1  */
+.section1_about {
+  padding-inline: 10%;
+  min-height: 500px;
+  background-image: url("../photos/background2.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .company_who_we_are  {
   margin-top: 8em;
 }
 
 .company_who_we_are h2 {
   text-decoration: overline #f2ce1b 5px;
-  text-overline-offset: 5px;
   font-size: 2rem;
   
 
