@@ -692,12 +692,13 @@ footer {
 
 .service_box_1 {
   padding: 5%;
-  /* border: 2px solid #f2ce1b; */
+  border: 2px solid #f2ce1b;
   transition: 0.8s;
 }
 
 .service_box_1:hover {
   background-color: #f2ce1b;
+  transform: translateY(-5%);
 }
 
 .service_box_1:hover h3 {
