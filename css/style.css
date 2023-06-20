@@ -762,17 +762,22 @@ footer {
   width: 70%;
 }
 
+/* SECTION 2 PORTFOLIO CARDS */
+
 .section2_portfolio {
   padding: 5%;
-  margin: 120px auto;
+  margin: 0 auto 100px;
+  background-color: #0c0c0c;
 }
+
+
 
 .section2_portfolio h2 {
   text-align: center;
   text-decoration: underline 1px solid #f2ce1b;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 1em;
-  margin-bottom: 3em;
+  margin: 3em 0;
 }
 
 figure {
