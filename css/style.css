@@ -2,11 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   background-color: #1c1c1c;
 }
-
 
 :root {
   --e-global-color-primary: #0c0c0c;
@@ -61,14 +59,12 @@ button {
   border-style: solid;
   border-width: 3px;
   border-color: var(--e-global-color-secondary);
-
 }
 
 a {
   font-family: var(--e-global-typography-text-font-family);
   font-weight: var(--e-global-typography-text-font-weight);
 }
-
 
 /* WRAPPER CONTAINER */
 
@@ -276,16 +272,14 @@ ul li a:hover {
 }
 
 .ourwork_photo_box {
-  transition: .5s ease;
+  transition: 0.5s ease;
   /* border: 2px solid red; */
-  
 }
 
 .ourwork_photo1 {
   width: 100%;
   height: auto;
   filter: brightness(70%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
-  
 }
 
 .ourwork_photo_box:hover {
@@ -298,7 +292,7 @@ ul li a:hover {
   position: absolute;
   top: -2%;
   left: 50%;
-  transition:.5s;
+  transition: 0.5s;
 }
 
 .box_photo2:hover {
@@ -316,9 +310,8 @@ ul li a:hover {
   position: absolute;
   top: 46%;
   left: 32%;
-  transition: .5s;
+  transition: 0.5s;
 }
-
 
 .our_work_photo3 {
   width: 100%;
@@ -335,7 +328,7 @@ ul li a:hover {
   z-index: 3;
   top: 16%;
   left: 55%;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .our_work_photo4 {
@@ -374,16 +367,13 @@ ul li a:hover {
   margin: 0 auto;
   padding: 7% 10%;
   background-color: #0c0c0c;
-  
-  
 }
 
 .about_us_home_div {
-  display: flex;  
+  display: flex;
   justify-content: space-between;
   margin-bottom: 4em;
 }
-
 
 .about_us_box {
   width: 30%;
@@ -391,12 +381,11 @@ ul li a:hover {
 }
 .about_us_text {
   padding-top: 0.5em;
-  width:150px;
+  width: 150px;
   border-top: 2px solid #f2ce1b;
   border-width: 6px;
   margin-bottom: 1.2em;
 }
-
 
 .curious_about_colture {
   width: 55%;
@@ -406,10 +395,9 @@ ul li a:hover {
 }
 
 .curious_about_colture p {
- line-height: 1.3;
- font-weight: 200;
+  line-height: 1.3;
+  font-weight: 200;
 }
-
 
 .div_founder_info {
   padding: 5% 3%;
@@ -421,19 +409,17 @@ ul li a:hover {
 
 .founder_photo_box {
   width: 40%;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .founder_photo_box:hover {
   transform: translateY(-5%);
 }
-  
-
 
 .achi_photo {
   width: 100%;
   height: auto;
-  filter: brightness( 80% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+  filter: brightness(80%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
 .achi_about_home {
@@ -441,7 +427,7 @@ ul li a:hover {
 }
 
 .achi_about_home h2 {
-  margin: .5em 0 1.5em;
+  margin: 0.5em 0 1.5em;
 }
 
 .achi_about_home p {
@@ -454,7 +440,7 @@ ul li a:hover {
   padding: 0.3em 1.5em;
   background-color: inherit;
   color: #f2ce1b;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .button_more:hover {
@@ -462,7 +448,6 @@ ul li a:hover {
   background-color: #f2ce1b;
   transform: translateY(-5%);
   cursor: pointer;
-
 }
 
 .feel_free_box {
@@ -482,7 +467,7 @@ ul li a:hover {
   color: #f2ce1b;
   background-color: inherit;
   padding: 0.3em 1em;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .button_contact_us:hover {
@@ -497,7 +482,6 @@ ul li a:hover {
 footer {
   background-color: #1c1c1c;
   padding: 5%;
- 
 }
 
 .footer_div_parent {
@@ -513,7 +497,6 @@ footer {
   gap: 2em;
   /* border: 2px solid red; */
   place-content: center;
- 
 }
 
 .footer_div1 a {
@@ -524,7 +507,6 @@ footer {
 
 .div_footer_icons {
   display: flex;
-  
 }
 
 .social_networks {
@@ -534,7 +516,6 @@ footer {
   /* border: 2px solid red; */
 }
 
-
 .div_footer_icons {
   display: flex;
   align-items: start;
@@ -542,12 +523,11 @@ footer {
 }
 
 .location_icon,
-.mail_icon, 
+.mail_icon,
 .phone_icon {
   font-size: 1.5rem;
-  color:  #f2ce1b;
-  transition: .5s;
-
+  color: #f2ce1b;
+  transition: 0.5s;
 }
 
 .location_icon:hover {
@@ -565,8 +545,7 @@ footer {
   transform: scale(1.2);
 }
 
-
-.facebook, 
+.facebook,
 .instagram,
 .twitter,
 .youtube {
@@ -576,16 +555,14 @@ footer {
   border-radius: 50%;
   padding: 0.5em;
   color: #f2ce1b;
-  transition: .5s ease;
-
+  transition: 0.5s ease;
 }
 
 .facebook:hover {
-  background-color:  #f2ce1b;
+  background-color: #f2ce1b;
   color: #0c0c0c;
   transform: scale(0.8);
   cursor: pointer;
-
 }
 
 .instagram:hover {
@@ -609,8 +586,6 @@ footer {
   cursor: pointer;
 }
 
-
-
 /* ABOUT PAGE */
 
 /* SECTION 1  */
@@ -622,23 +597,19 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.company_who_we_are  {
+.company_who_we_are {
   margin-top: 8em;
 }
 
 .company_who_we_are h2 {
   text-decoration: overline #f2ce1b 5px;
   font-size: 2rem;
-  
-
 }
-
 
 .about_company_secnd {
   font-size: 3.5rem;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
-
 
 /* SECTION 2 ABOUT US / HISTORY OF COMPANY */
 .history_of_company {
@@ -646,14 +617,13 @@ footer {
   margin-bottom: 5em;
 }
 
-.history_of_company h2{
+.history_of_company h2 {
   margin-bottom: 1em;
 }
 
 .history_of_company_paragraph {
   line-height: 1.2;
 }
-
 
 /* SERVICES PAGE */
 .section1_services {
@@ -671,17 +641,14 @@ footer {
   margin: 0 auto;
   padding: 10%;
   background-color: #0c0c0c;
-
-
 }
 
 .section2_services h2 {
   text-align: center;
-  text-decoration:  underline 1px solid #f2ce1b ;
+  text-decoration: underline 1px solid #f2ce1b;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 1em;
   margin-bottom: 3em;
-
 }
 
 .services_box_parent {
@@ -701,8 +668,7 @@ footer {
 }
 
 .service_box_1:hover h3 {
-  color:black;
-  
+  color: black;
 }
 
 .service_box_1:hover p {
@@ -712,7 +678,6 @@ footer {
 .service_box_1 p {
   margin: 1em 0 1em;
   line-height: 1.3;
-  
 }
 
 /* ARTICLE SERVICES  */
@@ -721,11 +686,10 @@ footer {
   margin: 100px auto;
   padding: 3%;
   /* border: 2px solid #f2ce1b; */
-
 }
 
-.article_service h2  {
-  text-decoration:  underline 1px solid #f2ce1b ;
+.article_service h2 {
+  text-decoration: underline 1px solid #f2ce1b;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 1em;
   margin-bottom: 3em;
@@ -738,7 +702,6 @@ footer {
   flex-wrap: wrap;
 }
 
-
 .article_cards {
   width: 32%;
   min-height: 500px;
@@ -750,16 +713,12 @@ footer {
   display: flex;
 }
 
-
-
-
-
 .cards2 {
   background-image: url("../photos/7af28a5f-7fe4-4451-b60e-92490d46c842\ 2.JPG");
 }
 
 .cards3 {
- background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG");
+  background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG");
 }
 
 .cards_overlay {
@@ -788,3 +747,98 @@ footer {
   display: block;
 }
 
+/* PORTFOLIO PAGE */
+.section1_portfolio {
+  padding-inline: 10%;
+  min-height: 600px;
+  background-image: url("../photos/back6.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolio_title {
+  margin-top: 15em;
+  width: 70%;
+}
+
+.section2_portfolio {
+  padding: 5%;
+  margin: 120px auto;
+}
+
+.section2_portfolio h2 {
+  text-align: center;
+  text-decoration: underline 1px solid #f2ce1b;
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 1em;
+  margin-bottom: 3em;
+}
+
+figure {
+  /* border: 2px solid #f2ce1b; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 3em;
+}
+
+.card_portfolio1 {
+  width: 32%;
+  height: 600px;
+  background-image: url("../photos/8a8c837e-8527-4b52-9b3c-f1c29c35d2cc.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.card12 {
+  background-image: url("../photos/eb8ef4ec-8929-470b-bd24-3014f49b5a6f.JPG");
+  
+}
+
+.card13 {
+  background-image: url("../photos/8a28740e-63d4-4aeb-bc82-eaa250b9ed35.JPG");
+}
+
+.card14 {
+  width: 32%;
+  height: 600px;
+  background-image: url("../photos/f0f58f2a-3d8b-48c2-aaa0-89f719bbca53.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card15 {
+  background-image: url("../photos/0131ddab-691d-4b8f-b993-c82748143d3b.JPG");
+}
+
+
+.cards_overlay2 {
+  padding: 8%;
+  width: 100%;
+  background-color: rgb(28, 28, 28, 70%);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  transition: 1s ease;
+  display: none;
+}
+
+.cards_overlay2 h3 {
+  margin-top: 16em;
+  margin-bottom: .5em;
+}
+
+.cards_overlay2 p {
+  line-height: 1.3;
+}
+
+.card_portfolio1:hover .cards_overlay2 {
+  display: block;
+  height: 100%;
+}
