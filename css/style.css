@@ -642,7 +642,6 @@ footer {
 
 /* SECTION 2 ABOUT US / HISTORY OF COMPANY */
 .history_of_company {
-  padding: 3%;
   /* border: 2px solid #f2ce1b; */
   margin-bottom: 5em;
 }
@@ -736,6 +735,7 @@ footer {
 .article_cards_parent {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
@@ -749,6 +749,7 @@ footer {
   position: relative;
   display: flex;
 }
+
 
 
 
