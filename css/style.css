@@ -746,7 +746,6 @@ figure {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 3em;
-  border: 2px solid #f2ce1b;
 }
 
 .card_portfolio1 {
