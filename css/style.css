@@ -746,16 +746,14 @@ figure {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 3em;
+  border: 2px solid #f2ce1b;
 }
 
 .card_portfolio1 {
   width: 32%;
+  
 }
 
-/* .port_foto {
-  width: 100%;
-  height: auto;
-} */
 
 .card_portfolio1 {
   width: 32%;
@@ -764,7 +762,7 @@ figure {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  
 }
 
 .card12 {
