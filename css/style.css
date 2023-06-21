@@ -267,7 +267,7 @@ ul li a:hover {
 }
 
 .ourwork_box_photo {
-  border: 2px  solid #f2ce1b;
+  /* border: 2px  solid #f2ce1b; */
   display: flex;
   flex-wrap: wrap;
   row-gap: 1em;
