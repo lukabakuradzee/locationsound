@@ -369,12 +369,23 @@ ul li a:hover {
   margin-bottom: 1.2em;
 }
 
+.about_us_section_photo {
+  overflow: hidden;
+  transition: .8s;
+}
+
 .about_us_section_photo img {
    width: 100%;
    height: auto;
    filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
 
 }
+
+
+.about_us_section_photo:hover {
+  transform: translateY(-5%);
+}
+
 
 .curious_about_colture {
   width: 55%;
