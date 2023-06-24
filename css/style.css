@@ -682,13 +682,14 @@ footer {
 
 .service_box_1:hover h3 {
   color: black;
-  transform: scaleY(1.3);
+  /* transform: scaleY(1.3); */
+  font-size: 1.8rem;
 
 }
 
 .service_box_1:hover p {
   color: black;
-  transform: scaleY(1.2);
+  font-size: 1.2rem;
 }
 
 .service_box_1 p {

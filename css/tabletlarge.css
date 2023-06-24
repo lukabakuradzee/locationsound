@@ -109,7 +109,7 @@ footer {
 /* SECTION 2 SERVICES */
 
 .section2_services {
-  padding-inline: 3%;
+  padding: 5% 3%;
 }
 
 
@@ -126,7 +126,7 @@ footer {
 }
 
 .article_cards {
-  width: 80%;
+  width: 90%;
   min-height: 420px;
   margin-inline: auto;
 }
