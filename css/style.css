@@ -96,6 +96,18 @@ header {
   gap: 40px;
 }
 
+.show {
+ 
+}
+
+
+.burgermenu,
+.xmark {
+  color:#f2ce1b;
+  font-size: 1.8rem;
+  display: none;
+}
+
 ul li a {
   font-size: 1.2rem;
   color: #ffffff;
@@ -739,7 +751,7 @@ footer {
 }
 
 .cards_overlay h3 {
-  margin: 300px 0 0.5em;
+  margin: 14em 0 0.5em;
 }
 
 .cards_overlay p {
@@ -792,16 +804,18 @@ figure {
 
 .card_portfolio1 {
   width: 32%;
+  /* border: 2px solid red; */
   
 }
 
 
 .card_portfolio1 {
-  width: 32%;
+  /* border: 2px solid red; */
+  /* width: 32%; */
   height: 600px;
   background-image: url("../photos/8a8c837e-8527-4b52-9b3c-f1c29c35d2cc.JPG");
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   position: relative;
   
@@ -826,6 +840,10 @@ figure {
 
 .card15 {
   background-image: url("../photos/0131ddab-691d-4b8f-b993-c82748143d3b.JPG");
+}
+
+.card16 {
+  background-image: url("../photos/port4.JPG");
 }
 
 .cards_overlay2 {

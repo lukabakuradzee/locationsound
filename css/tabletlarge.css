@@ -1,0 +1,191 @@
+@media (max-width: 1024px) {
+  /* section1 */
+
+  .section1 {
+    padding: 0 3% 10% 0;
+  }
+
+ .company_title_box {
+  padding-inline: 2%;
+
+ }
+
+ 
+  .burgermenu {
+    display: block;
+  }
+
+  .menu {
+    width: 398px;
+    height: 100vh;
+    border-radius: 2px;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    left: -100%;
+    background-color: rgb(12, 12, 12, 85%);
+    z-index: 1;
+    transition: 1s ease;
+    
+    
+  }
+
+  .show {
+    left: 0;
+  }
+
+  
+
+  /* SECTION 2 CAPABILITIES */
+  .section_capabilities {
+    padding: 5% 3%;
+  }
+
+
+  /* SECTION ALL SERVICES */
+  .section_allservices {
+    padding: 8% 3%;
+  }
+
+  /* SECTION OUR WORK */
+  .section_our_work {
+    padding: 5% 3%;
+  }
+
+
+  /* SECTIOn 6 ABOUT US HOME */
+  .section6_aboutus_home {
+  padding: 5% 0%;
+
+
+}
+.about_us_home_div {
+  width: 95%;
+  margin-inline: auto;
+}
+
+.feel_free_box {
+  width: 100%;
+
+}
+
+
+footer {
+  padding: 5% 3%;
+}
+
+
+
+/* ABOUT PAGE */
+
+.section1_about {
+    padding: 0 3% 10% 0;
+  }
+
+ .company_who_we_are {
+  padding-inline: 2%;
+  margin-top: 10em;
+  width: 70%;
+
+
+ }
+
+ .history_of_company {
+  padding-inline: 3%;
+ }
+
+
+
+/* SERVICE PAGE */
+
+.section1_services {
+  padding: 0 3% 10% 0;
+
+}
+
+/* SECTION 2 SERVICES */
+
+.section2_services {
+  padding-inline: 3%;
+}
+
+
+/* ARTICLE SERVICES */ 
+.article_service {
+  margin: 50px auto;
+}
+
+.article_cards_parent {
+  flex-wrap: nowrap;
+  flex-direction: column; 
+  row-gap: 2em;
+  margin-inline: auto;
+}
+
+.article_cards {
+  width: 80%;
+  min-height: 420px;
+  margin-inline: auto;
+}
+
+.cards_overlay h3 {
+ margin: 11em 0 0.5em;
+
+}
+
+/* PORTFOLIO PAGE */
+.section1_portfolio {
+  padding: 0 3% 10% 0;
+
+
+}
+
+/* SECTION 2  */
+
+.section2_portfolio {
+  padding: 3%;
+}
+
+.section2_portfolio h2 {
+  margin: 2em 0;
+}
+
+figure {
+  justify-content: space-evenly;
+  gap: 2em;
+  row-gap: 1em;
+}
+
+
+.card_portfolio1 {
+  width: 37%;
+  height: 500px;
+}
+
+.cards_overlay2 h3 {
+  margin-top: 8em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+ 
+
+
+
+
+/* CONTACT PAGE */
+.section1_contact{
+  padding: 0 3% 10% 0;
+}
+
+.section2_contact {
+  padding: 10% 3%;
+}
+
+
+
+}
+
+
