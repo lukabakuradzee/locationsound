@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+  /* section 1 home */
+
+.menu {
+  width: 318px;
+}
+.logo {
+  font-size: 1.6rem;
+}
+
+.burgermenu,
+.xmark {
+  color:#f2ce1b;
+  font-size: 1.5rem;
+} 
+
+
+.about_company_h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1em;
+}
+
+/* section 2 capabilities */
+
+.capabilities_box2 {
+  row-gap: 4.5em;
+}
+
+
+/* section all services */
+.allservices_title_box {
+  width: 100%;
+}
+
+
+/* section 4 our work */
+
+.photo_box1 {
+  width: 100%;
+}
+
+.photo_box1:hover {
+  transform: translateY(-1%);
+}
+
+
+/* SECTION 6 about us home */
+.div_founder_info {
+  margin-bottom: 5em;
+}
+
+footer {
+  padding: 10% 3%;
+}
+
+.div_footer_second {
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* about page */
+/* .achi_about_home h2, h3 {
+  text-align: center;
+} */
+
+
+.div_founder_info {
+  flex-direction: column;
+  row-gap: 2em;
+}
+
+.button_more {
+  display: block;
+  margin-inline: auto;
+}
+
+.founder_photo_box {
+  width: 100%;
+}
+
+.achi_about_home {
+  width: 100%;
+}
+
+
+
+/* portfolio page */
+
+.card_portfolio1 {
+  width: 46%;
+}
+
+.contact_heading_title {
+  width: 100%;
+}
+
+}

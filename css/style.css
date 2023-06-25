@@ -309,11 +309,6 @@ ul li a:hover {
 
 
 
-  
-  
-
-
-
 .third_photo_wide {
   width: 100%;
   height: 500px;
@@ -509,6 +504,7 @@ footer {
   gap: 2em;
   /* border: 2px solid red; */
   place-content: center;
+
 }
 
 .footer_div1 a {
