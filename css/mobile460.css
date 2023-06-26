@@ -1,0 +1,173 @@
+@media (max-width: 468px) {
+  /* section 1 home */
+  .section1 {
+    min-height: 450px;
+  }
+
+  .company_title_box {
+    width: 70%;
+    margin-inline: auto;
+    margin-top: 4em;
+  }
+
+  .about_company_h1 {
+    font-size: 2.063rem;
+    text-align: center;
+  }
+
+  .button_find_out {
+    display: block;
+    margin-inline: auto;
+  }
+
+  /* section 2 capabilities */
+  .section_capabilities {
+    padding: 15% 3%;
+    flex-direction: column;
+    row-gap: 2em;
+  }
+
+  .capabilities_box_1 {
+    width: 100%;
+  }
+
+  .capabilities_box2 {
+    width: 100%;
+  }
+
+  /* section 4 OUR WORK */
+  .section_our_work {
+    padding: 15% 3%;
+  }
+
+  .third_photo_wide {
+    height: 325px;
+  }
+
+  /* section 5 clients */
+
+  .section_clients {
+    padding: 8% 3%;
+  }
+
+  /* section 6 about us home */
+
+  .section6_aboutus_home {
+    padding: 15% 0;
+  }
+
+  .about_us_home_div {
+    flex-direction: column;
+  }
+
+  .curious_about_colture {
+    width: 100%;
+  }
+
+  /* about page */
+  .section1_about {
+    min-height: 450px;
+  }
+
+  .company_who_we_are {
+    width: 100%;
+    padding-inline: 3%;
+    margin-top: 10em;
+  }
+
+  .about_company_secnd {
+    text-align: start;
+  }
+
+  .about_us_section_photo {
+    width: 100%;
+  }
+
+  .about_us_box {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  /* services page */
+  .section1_services {
+    min-height: 450px;
+  }
+
+  .section2_services {
+    padding: 15% 3%;
+  }
+
+  /* article services */
+  .article_cards {
+    width: 95%;
+    min-height: 350px;
+  }
+
+  .cards_overlay h3 {
+    margin: 8em 0 0.5em;
+   
+   }
+
+   /* portfolio page */
+   .section1_portfolio {
+    min-height: 450px;
+    padding-inline: 3%;
+
+   }
+
+   .portfolio_title {
+    width: 100%;
+    margin-top: 10em;
+   }
+
+   /* section 2 */
+   figure {
+    flex-direction: column;
+    row-gap: 1.5em;
+   }
+
+   .card_portfolio1 {
+    width: 100%;
+   }
+
+   .card_portfolio1 {
+    height: 600px;
+   }
+
+   /* contact page */
+   .section1_contact {
+    min-height: 450px;
+   }
+
+   /* section 2  */
+   .section2_contact {
+    margin: 50px auto;
+    flex-direction: column;
+    row-gap: 3em;
+   }
+  
+  
+   .contact_about_us {
+    width: 100%;
+   }
+
+   .contact_page_icons {
+    flex-direction: column;
+    place-items: start;
+   }
+
+   .location_icon,
+   .mail_icon,
+   .phone_icon {
+    font-size: 1.2rem;
+   }
+  
+
+   form {
+    width: 100%;
+   }
+
+   iframe  {
+    margin-bottom: 8em;
+   }
+}
