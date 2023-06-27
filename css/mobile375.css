@@ -1,0 +1,34 @@
+@media (max-width: 375px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .menu {
+    width: 258px;
+  }
+
+
+ .footer_nav {
+  display: none;
+ }
+
+ /* service page */
+ .article_cards_parent {
+  row-gap: 1em;
+ }
+
+   .article_cards {
+    min-height: 300px;
+   }
+
+   .cards_overlay h3 {
+    margin: 5.5em 0 0.5em;
+   
+   } 
+
+   /* portfolio page */
+   .card_portfolio1 {
+    height: 500px;
+   }
+
+  }
