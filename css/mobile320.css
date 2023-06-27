@@ -1,0 +1,41 @@
+@media (max-width:320px ) {
+   /* section 1 home */
+   .company_title_box {
+    width: 95%;
+   }
+
+   /* section  all services */
+   .allservices_title_box h2 {
+      font-size: 2.3rem;
+      line-height: 1.3;
+   }
+
+.services_list_third {
+  display: none;
+}
+
+.achi_about_home h2 {
+ font-size: 2.2rem;
+}
+
+.feel_free_box h2{
+ font-size: 2.4rem;
+}
+
+/* service page */
+.article_cards {
+    min-height: 250px;
+   }
+
+   .cards_overlay h3 {
+    margin: 4em 0 0.5em;
+   
+   } 
+
+  
+   /* portfolio page */
+   .card_portfolio1 {
+    height: 450px;
+   }
+
+}
