@@ -161,21 +161,21 @@
     font-size: 1.2rem;
    }
   
-   /* input {
+   input {
     border-width: 2px;
-   } */
+    }
 
    form {
     width: 100%;
    }
-/* 
+
 textarea {
   border-width: 2px;
 }
 
 .button_send_message {
   border-width: 2px; 
-} */
+}
 
    iframe  {
     margin-bottom: 8em;

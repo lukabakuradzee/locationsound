@@ -13,3 +13,18 @@ xmark.addEventListener("click", () => {
   burgerMenu.style.display = "block";
   xmark.style.display = "none";
 });
+
+
+// document.addEventListener('DOMContentLoaded', () => {
+  
+//   const form = document.getElementById('myForm');
+
+  
+//   form.addEventListener('submit', (event) => {
+//     event.preventDefault(); 
+//   });
+// });
+
+
+
+
