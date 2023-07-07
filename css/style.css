@@ -601,7 +601,7 @@ footer {
 .section1_about {
   padding-inline: 10%;
   min-height: 500px;
-  background-image: url("../photos/background2.jpeg");
+  background-image: url("../photos/33f4a084-96af-40ca-bd38-76d1a7133cc5\ 2.JPG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -638,7 +638,7 @@ footer {
 .section1_services {
   padding-inline: 10%;
   min-height: 600px;
-  background-image: url("../photos/back6.jpeg");
+  background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -803,6 +803,7 @@ figure {
 .card_portfolio1 {
   width: 32%;
   /* border: 2px solid red; */
+ 
   
 }
 
@@ -811,7 +812,7 @@ figure {
   /* border: 2px solid red; */
   /* width: 32%; */
   height: 600px;
-  background-image: url("../photos/8a8c837e-8527-4b52-9b3c-f1c29c35d2cc.JPG");
+  background-image: url("../photos/port8.JPG");
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
@@ -820,28 +821,30 @@ figure {
 }
 
 .card12 {
-  background-image: url("../photos/eb8ef4ec-8929-470b-bd24-3014f49b5a6f.JPG");
+  background-image: url("../photos/port7.JPG");
 }
 
 .card13 {
-  background-image: url("../photos/8a28740e-63d4-4aeb-bc82-eaa250b9ed35.JPG");
+  background-image: url("../photos/port9.JPG");
 }
 
 .card14 {
   width: 32%;
   height: 600px;
-  background-image: url("../photos/f0f58f2a-3d8b-48c2-aaa0-89f719bbca53.JPG");
+  background-image: url("../photos/8a28740e-63d4-4aeb-bc82-eaa250b9ed35.JPG");
+  
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .card15 {
-  background-image: url("../photos/0131ddab-691d-4b8f-b993-c82748143d3b.JPG");
+  background-image: url("../photos/f0f58f2a-3d8b-48c2-aaa0-89f719bbca53.JPG");
+  
 }
 
 .card16 {
-  background-image: url("../photos/port4.JPG");
+  background-image: url("../photos/8a8c837e-8527-4b52-9b3c-f1c29c35d2cc.JPG");
 }
 
 .cards_overlay2 {
@@ -876,7 +879,7 @@ figure {
   margin: 0 auto;
   padding-inline: 10%;
   min-height: 600px;
-  background-image: url("../photos/Boom_Operator.jpg");
+  background-image: url("../photos/af583ebe-d990-4a9a-b74b-b0d576eb05c8\ 2.JPG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
