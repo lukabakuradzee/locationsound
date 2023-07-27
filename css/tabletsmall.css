@@ -96,3 +96,18 @@ footer {
 }
 
 }
+
+
+@media (max-width: 570px) {
+  .figure_team_professionals {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    row-gap: 3em;
+
+  }
+
+  .employess_info_box {
+    width: 100%;
+   }
+
+  }
