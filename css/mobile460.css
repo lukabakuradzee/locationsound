@@ -88,6 +88,21 @@
     margin-bottom: 2em;
   }
 
+  /* section our team */
+  .section_meet_our_team {
+    padding: 0 3% 10%;
+  }
+
+  .section_meet_our_team h2 {
+    line-height: 1.3;
+  }
+
+  .worker_name h3 {
+    font-size: 1.3rem;
+  }
+ 
+
+
   /* services page */
   .section1_services {
     min-height: 450px;

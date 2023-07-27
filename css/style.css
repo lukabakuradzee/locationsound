@@ -634,6 +634,79 @@ footer {
   line-height: 1.2;
 }
 
+
+/* section founder info */
+.section2_about_us_page {
+  padding-bottom: 1%;
+}
+
+
+
+
+/* section our team */
+
+.section_meet_our_team {
+  margin: 0 auto;
+  padding: 5%;
+  background-color: #0c0c0c;
+  /* border: 2px solid #f2ce1b; */
+}
+
+.section_meet_our_team h2 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.figure_team_professionals {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8em;
+}
+
+.employess_info_box {
+  width: 24%;
+}
+
+.employess_info_box figcaption {
+  overflow: hidden;
+}
+
+
+.figure_team_professionals div figcaption img {
+  width: 100%;
+  height: auto;
+  filter: brightness( 95% ) contrast( 110% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+    transition-duration: 0.4s;
+    object-fit: cover;
+}
+
+.figure_team_professionals div img:hover {
+  filter: none;
+  transform: scale(1.05);
+}
+
+.figure_team_professionals div figcaption {
+  margin-bottom: 2em;
+}
+
+.worker_name {
+  border-top: 2px solid #f2ce1b;
+  padding-top: 8%;
+  margin-bottom: 1em;
+}
+
+.worker_name h3 {
+  margin-bottom: 0.7em;
+}
+.worker_name p {
+  font-size: 1.1rem;
+}
+
+
+
+
+
+
 /* SERVICES PAGE */
 .section1_services {
   padding-inline: 10%;
@@ -994,3 +1067,5 @@ iframe {
   height: 400px;
   margin-bottom: 12em;
 }
+
+

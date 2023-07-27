@@ -97,6 +97,48 @@ footer {
   padding-inline: 3%;
  }
 
+ /* section  meet our team */
+ .section_meet_our_team  {
+   padding-inline: 3%;
+ }
+
+ .figure_team_professionals {
+   flex-wrap: wrap;
+   row-gap: 2em;
+   
+
+ }
+
+ .employess_info_box {
+  width: 48%;
+ }
+
+
+
+ @media (max-width: 860px) {
+  .employess_info_box {
+    width: 47%;
+   }
+
+  }
+   @media (max-width: 570px) {
+    .figure_team_professionals {
+      flex-wrap: nowrap;
+      flex-direction: column;
+      row-gap: 3em;
+
+    }
+
+    .employess_info_box {
+      width: 100%;
+     }
+  
+ }
+
+
+
+
+
 
 
 /* SERVICE PAGE */
