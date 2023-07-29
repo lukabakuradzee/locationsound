@@ -3,29 +3,7 @@ html {
   background-color: #0c0c0c;
 }
 
-/* .section1,
-.section_capabilities,
-.section_our_work,
-.footer1,
-.section1_about,
-.section6_aboutus_home,
-.section_meet_our_team,
-.section1_services,
-.section2_services,
-.article_service,
-.section1_portfolio,
-.section2_portfolio,
-.section1_contact,
-.section2_contact {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.8s ease, transform 0.5s ease;
-}
 
-.load {
-  opacity: 1;
-  transform: translateY(0);
-} */
 
 
 
@@ -705,6 +683,7 @@ footer {
   filter: brightness( 95% ) contrast( 110% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
     transition-duration: 0.4s;
     object-fit: cover;
+    
 }
 
 .figure_team_professionals div img:hover {
@@ -879,7 +858,7 @@ footer {
 /* SECTION 2 PORTFOLIO CARDS */
 
 .section2_portfolio {
-  padding: 5%;
+  padding: 3%;
   margin: 0 auto 100px;
   background-color: #0c0c0c;
 }
@@ -892,33 +871,41 @@ footer {
   margin: 3em 0;
 }
 
+
+.portfolio_photo {
+  aspect-ratio: 6 / 9;
+  filter: none;
+}
+
+
+
+
 figure {
-  /* border: 2px solid #f2ce1b; */
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 3em;
-}
+} 
 
-.card_portfolio1 {
+ .card_portfolio1 {
   width: 32%;
-  /* border: 2px solid red; */
- 
-  
-}
+
+    }
+
+
 
 
 .card_portfolio1 {
-  /* border: 2px solid red; */
-  /* width: 32%; */
+  width: 32%; 
   height: 600px;
   background-image: url("../photos/port8.JPG");
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
   position: relative;
-  
 }
+   
+
 
 .card12 {
   background-image: url("../photos/port7.JPG");
@@ -972,7 +959,7 @@ figure {
 .card_portfolio1:hover .cards_overlay2 {
   display: block;
   height: 100%;
-}
+} 
 
 /* CONTACT PAGE */
 .section1_contact {
