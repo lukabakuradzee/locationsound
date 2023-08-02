@@ -358,7 +358,7 @@ ul li a:hover {
 /* SECTION 6 ABOUT US HOME */
 .section6_aboutus_home {
   margin: 0 auto;
-  padding: 7% 10%;
+  padding: 5% 10%;
   background-color: #0c0c0c;
 }
 
@@ -628,15 +628,16 @@ footer {
 /* SECTION 2 ABOUT US / HISTORY OF COMPANY */
 .history_of_company {
   /* border: 2px solid #f2ce1b; */
-  margin: 8em 0 5em;
+  margin: 4em 0 5em;
 }
 
 .history_of_company h2 {
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .history_of_company_paragraph {
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 
