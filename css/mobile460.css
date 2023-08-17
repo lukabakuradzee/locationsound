@@ -98,9 +98,15 @@
   }
 
   .worker_name h3 {
-    font-size: 1.3rem;
+    text-align: center;
+    font-size: 1.6rem;
   }
  
+  .worker_name p {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
 
 
   /* services page */
