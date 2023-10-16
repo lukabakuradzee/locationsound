@@ -112,6 +112,7 @@ header {
   color:#f2ce1b;
   font-size: 1.8rem;
   display: none;
+  cursor: pointer;
 }
 
 ul li a {
