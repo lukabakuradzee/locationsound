@@ -125,13 +125,13 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #f2ce1b;
+  color: #F0EB68;
   text-decoration: underline;
   text-underline-offset: 0.5em;
 }
 
 .active {
-  color: #f2ce1b;
+  color: #F0EB68;
 }
 
 .logo-box-cont {
@@ -539,7 +539,7 @@ footer {
 
 .footer_div1 a {
   font-size: 1.2rem;
-  color: #f2ce1b;
+  color: #F0EB68;
   font-weight: 200;
 }
 
@@ -564,7 +564,7 @@ footer {
 .mail_icon,
 .phone_icon {
   font-size: 1.5rem;
-  color: #f2ce1b;
+  color: #F0EB68;
   transition: 0.5s;
 }
 
@@ -644,6 +644,7 @@ footer {
 .about_page_logo {
   width: 300px;
   height: 90px;
+  background-color: #F0EB68;
   object-fit: cover;
 }
 .company_who_we_are {
@@ -1004,13 +1005,14 @@ figure {
 .contact_page_header {
   justify-content: space-between;
   align-items: center;
-  padding: 0.5em;
 }
 
 .contact_page_heading {
   font-size: 3.5rem;
+  color: #F0EB68;
   text-align: end;
   margin-top: 5em;
+  
 }
 
 /* SECTION 2 CONTACT */
@@ -1028,15 +1030,18 @@ figure {
 }
 
 .contact_about_us h2 {
-  text-decoration: overline 1px solid #f2ce1b;
+  text-decoration: overline 1px solid #F0EB68;
   text-decoration-thickness: 0.15em;
   margin-bottom: 1.5em;
+  color: #F0EB68;
+
 }
 
 .contact_about_us p {
   line-height: 1.5;
   font-weight: 200;
   margin-bottom: 2em;
+  color: #F0EB68;
 }
 
 .contact_page_icons {
@@ -1049,7 +1054,7 @@ figure {
   margin: 1em 0;
 }
 .contact_page_icons a {
-  color: #f2ce1b;
+  color: #F0EB68;
   letter-spacing: 0.7px;
 }
 
@@ -1064,7 +1069,7 @@ form {
 input {
   width: 100%;
   background-color: inherit;
-  border: 2px solid #f2ce1b;
+  border: 2px solid #F0EB68;
   border-width: 4px;
   padding: 1em;
   color: #f2a81d;
@@ -1078,14 +1083,14 @@ input:hover {
 }
 
 ::placeholder {
-  color: #f2ce1b;
+  color: #F0EB68;
   font-family: var(--e-global-typography-text-font-family);
   font-weight: 200;
 }
 
 textarea {
   background-color: inherit;
-  border: 2px solid #f2ce1b;
+  border: 2px solid #F0EB68;
   border-width: 4px;
   padding: 1em;
   color: #f2a81d;
@@ -1100,9 +1105,10 @@ textarea:hover {
 
 .button_send_message {
   background-color: inherit;
-  color: #f2ce1b;
+  color: #F0EB68;
   padding: 0.3em 0;
   transition: 0.5s;
+  border: 4px solid #F0EB68;
 }
 
 .button_send_message:hover {

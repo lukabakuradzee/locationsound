@@ -1,5 +1,5 @@
 "use strict";
-
+// Mobile Menu
 function setupMobileMenu() {
   let MobileMenu = document.querySelector(".menu");
   let burgerMenu = document.querySelector(".burgermenu");
@@ -22,8 +22,10 @@ document.addEventListener("DOMContentLoaded", function () {
   setupMobileMenu();
 });
 
-document.getElementById('myForm').addEventListener('submit', function(event) {
-  event.preventDefault();
+
+// Sending Email 
+document.getElementById('myForm').addEventListener('submit', function(e) {
+  e.preventDefault();
 
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
