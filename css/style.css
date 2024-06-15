@@ -82,24 +82,34 @@ a {
 }
 
 .section1 {
-  padding-inline: 10%;
-  min-height: 600px;
-  background-image: url("../photos/Boom_Operator.jpg");
+  /* padding-inline: 10%; */
+  min-height: 700px;
+  background-image: url("../photos/front\ text\ yellow.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 header {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  place-content: end;
   align-items: center;
   margin-bottom: 2em;
+  background-color: #0c0c0c;
+  padding: 2.2em 0.5em;
+  /* position: fixed; */
+  z-index: 200;
 }
 
 .menu {
   display: flex;
   gap: 40px;
+}
+
+nav {
+  padding-right: 5%;
 }
 
 .show {
@@ -116,19 +126,30 @@ header {
 }
 
 ul li a {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #ffffff;
   transition: 0.5s;
 }
 
 ul li a:hover {
-  color: #f2ce1b;
+  color: #f1eb66;
   text-decoration: underline;
   text-underline-offset: 0.5em;
 }
 
 .active {
-  color: #f2ce1b;
+  color: #f1eb66;
+}
+
+.logo-box-cont {
+  width: 350px;
+  height: 80px;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .logo {
@@ -138,10 +159,20 @@ ul li a:hover {
   /* padding: 20px 45px; */
   padding: 1em 1.2em;
   cursor: pointer;
+  transition: 0.5s all;
+}
+.logo:hover {
+  background-color: #0c0c0c;
+  color: #f2ce1b;
+}
+
+.logo-location {
+  width: 100%;
 }
 
 .company_title_box {
-  width: 60%;
+  width: 95%;
+  margin-inline: auto;
   /* border: 2px solid red; */
 }
 
@@ -149,6 +180,7 @@ ul li a:hover {
   font-size: 4.688rem;
   line-height: 1.1em;
   margin-bottom: 0.5em;
+  color:#f2ce1b;
 }
 
 .button_find_out {
@@ -506,7 +538,7 @@ ul li a:hover {
 /* FOOTER */
 
 footer {
-  background-color: #1c1c1c;
+  background-color: #0c0c0c;
   padding: 5%;
 }
 
@@ -617,12 +649,24 @@ footer {
 
 /* SECTION 1  */
 .section1_about {
-  padding-inline: 10%;
-  min-height: 500px;
-  background-image: url("../photos/33f4a084-96af-40ca-bd38-76d1a7133cc5\ 2.JPG");
-  background-position: center;
+  /* padding-inline: 5%; */
+  min-height: 400px;
+  background-color: #0c0c0c;
+  /* background-image: url("../photos/33f4a084-96af-40ca-bd38-76d1a7133cc5\ 2.JPG"); */
+  /* background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+}
+.about_page_header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+
+}
+.about_page_logo {
+  width: 300px;
+  height: 90px;
+  object-fit: cover;
 }
 .company_who_we_are {
   margin-top: 8em;
@@ -634,14 +678,15 @@ footer {
 }
 
 .about_company_secnd {
-  font-size: 3.5rem;
+  font-size: 5rem;
+  text-align: center;
   margin-top: 0.5em;
 }
 
 /* SECTION 2 ABOUT US / HISTORY OF COMPANY */
 .history_of_company {
   /* border: 2px solid #f2ce1b; */
-  margin: 4em 0 5em;
+  margin: 1em 0 5em;
 }
 
 .history_of_company h2 {
@@ -725,16 +770,20 @@ footer {
 
 
 
-
-
 /* SERVICES PAGE */
 .section1_services {
-  padding-inline: 10%;
-  min-height: 600px;
-  background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG");
+  /* padding-inline: 10%; */
+  min-height: 400px;
+  /* background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+}
+
+.service_page_header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
 }
 
 /* SECTION 2  */
@@ -856,24 +905,31 @@ footer {
 
 /* PORTFOLIO PAGE */
 .section1_portfolio {
-  padding-inline: 10%;
-  min-height: 600px;
-  background-image: url("../photos/back6.jpeg");
+  /* padding-inline: 10%; */
+  min-height: 220px;
+  background-color: #0c0c0c;
+  /* background-image: url("../photos/back6.jpeg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
+.portfolio_page_header {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+/* 
 .portfolio_title {
   margin-top: 15em;
   width: 70%;
-}
+} */
 
 /* SECTION 2 PORTFOLIO CARDS */
 
 .section2_portfolio {
   padding: 3%;
-  margin: 0 auto 100px;
+  margin: 0 auto ;
   background-color: #0c0c0c;
 }
 
@@ -884,11 +940,6 @@ footer {
   text-underline-offset: 1em;
   margin: 3em 0;
 }
-
-
-
-
-
 
 
 figure {
@@ -980,12 +1031,24 @@ figure {
 /* CONTACT PAGE */
 .section1_contact {
   margin: 0 auto;
-  padding-inline: 10%;
-  min-height: 600px;
+  /* padding-inline: 10%; */
+  min-height: 650px;
   background-image: url("../photos/af583ebe-d990-4a9a-b74b-b0d576eb05c8\ 2.JPG");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.contact_page_header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.contact_page_heading {
+  font-size: 3.5rem;
+  text-align: end;
+  margin-top: 5em;
 }
 
 /* SECTION 2 CONTACT */
@@ -1007,6 +1070,7 @@ figure {
   text-decoration-thickness: 0.15em;
   margin-bottom: 1.5em;
 }
+
 
 .contact_about_us p {
   line-height: 1.5;
