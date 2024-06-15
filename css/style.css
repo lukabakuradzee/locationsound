@@ -3,11 +3,6 @@ html {
   background-color: #0c0c0c;
 }
 
-
-
-
-
-
 body {
   background-color: #1c1c1c;
 }
@@ -113,13 +108,11 @@ nav {
 }
 
 .show {
- 
 }
-
 
 .burgermenu,
 .xmark {
-  color:#f2ce1b;
+  color: #f2ce1b;
   font-size: 1.8rem;
   display: none;
   cursor: pointer;
@@ -132,13 +125,13 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #f1eb66;
+  color: #f2ce1b;
   text-decoration: underline;
   text-underline-offset: 0.5em;
 }
 
 .active {
-  color: #f1eb66;
+  color: #f2ce1b;
 }
 
 .logo-box-cont {
@@ -180,7 +173,7 @@ ul li a:hover {
   font-size: 4.688rem;
   line-height: 1.1em;
   margin-bottom: 0.5em;
-  color:#f2ce1b;
+  color: #f2ce1b;
 }
 
 .button_find_out {
@@ -333,21 +326,16 @@ ul li a:hover {
   row-gap: 1em;
   justify-content: space-between;
   margin-bottom: 3em;
-  
 }
 
 .photo_box1 {
   width: 32%;
-  transition: .8s ease;
-  
+  transition: 0.8s ease;
 }
 
 .photo_box1:hover {
   transform: translateY(-10%);
 }
-
-
-
 
 .ourwork_photo1 {
   width: 100%;
@@ -355,14 +343,11 @@ ul li a:hover {
   /* filter: brightness(70%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg); */
 }
 
-
-
 .third_photo_wide {
   width: 100%;
   height: 500px;
   overflow: hidden;
   display: flex;
-  
 }
 
 .third_photo_wide img {
@@ -374,9 +359,6 @@ ul li a:hover {
 .third_photo_wide:hover {
   transform: translateY(0);
 }
-
-
-
 
 .button_view_projects {
   background-color: inherit;
@@ -429,21 +411,19 @@ ul li a:hover {
 
 .about_us_section_photo {
   overflow: hidden;
-  transition: .8s;
+  transition: 0.8s;
 }
 
 .about_us_section_photo img {
-   width: 100%;
-   height: auto;
-   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
-
+  width: 100%;
+  height: auto;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px)
+    hue-rotate(0deg);
 }
-
 
 .about_us_section_photo:hover {
   transform: translateY(-5%);
 }
-
 
 .curious_about_colture {
   width: 54%;
@@ -555,7 +535,6 @@ footer {
   gap: 2em;
   /* border: 2px solid red; */
   place-content: center;
-
 }
 
 .footer_div1 a {
@@ -661,7 +640,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0.5em;
-
 }
 .about_page_logo {
   width: 300px;
@@ -698,14 +676,10 @@ footer {
   line-height: 1.4;
 }
 
-
 /* section founder info */
 .section2_about_us_page {
   padding-bottom: 1%;
 }
-
-
-
 
 /* section our team */
 
@@ -735,14 +709,12 @@ footer {
   overflow: hidden;
 }
 
-
 .figure_team_professionals div figcaption img {
   width: 100%;
   height: auto;
-  filter: brightness( 95% ) contrast( 110% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
-    transition-duration: 0.4s;
-    object-fit: cover;
-    
+  filter: brightness(95%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
+  transition-duration: 0.4s;
+  object-fit: cover;
 }
 
 .figure_team_professionals div img:hover {
@@ -766,9 +738,6 @@ footer {
 .worker_name p {
   font-size: 1.1rem;
 }
-
-
-
 
 /* SERVICES PAGE */
 .section1_services {
@@ -823,7 +792,6 @@ footer {
   color: black;
   /* transform: scaleY(1.3); */
   font-size: 1.8rem;
-
 }
 
 .service_box_1:hover p {
@@ -929,7 +897,7 @@ footer {
 
 .section2_portfolio {
   padding: 3%;
-  margin: 0 auto ;
+  margin: 0 auto;
   background-color: #0c0c0c;
 }
 
@@ -941,38 +909,32 @@ footer {
   margin: 3em 0;
 }
 
-
 figure {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 3em;
-} 
-
- .card_portfolio1 {
-  width: 32%;
-  height: 400px;
-    }
-
-  .portfolio_photo {
-    aspect-ratio: 6 / 9;
-    filter: none;
-  }
-
-
-
+}
 
 .card_portfolio1 {
-  width: 32%; 
+  width: 32%;
+  height: 400px;
+}
+
+.portfolio_photo {
+  aspect-ratio: 6 / 9;
+  filter: none;
+}
+
+.card_portfolio1 {
+  width: 32%;
   height: 600px;
   background-image: url("../photos/port8.JPG");
   background-position: center;
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
-   
-
 
 /* .card12 {
   background-image: url("../photos/port7.JPG");
@@ -1026,7 +988,7 @@ figure {
 .card_portfolio1:hover .cards_overlay2 {
   display: block;
   height: 100%;
-} 
+}
 
 /* CONTACT PAGE */
 .section1_contact {
@@ -1071,14 +1033,13 @@ figure {
   margin-bottom: 1.5em;
 }
 
-
 .contact_about_us p {
   line-height: 1.5;
   font-weight: 200;
   margin-bottom: 2em;
 }
 
-.contact_page_icons  {
+.contact_page_icons {
   display: flex;
   gap: 1em;
   align-items: center;
@@ -1088,10 +1049,9 @@ figure {
   margin: 1em 0;
 }
 .contact_page_icons a {
- color: #f2ce1b;
- letter-spacing: 0.7px;
+  color: #f2ce1b;
+  letter-spacing: 0.7px;
 }
-
 
 form {
   width: 50%;
@@ -1109,14 +1069,12 @@ input {
   padding: 1em;
   color: #f2a81d;
   font-weight: 200;
-  transition: .5s;
+  transition: 0.5s;
   outline: none;
-
-
 }
 
 input:hover {
- border-color: #f2a81d;
+  border-color: #f2a81d;
 }
 
 ::placeholder {
@@ -1130,9 +1088,9 @@ textarea {
   border: 2px solid #f2ce1b;
   border-width: 4px;
   padding: 1em;
-  color:  #f2a81d;
+  color: #f2a81d;
   font-weight: 200;
-  transition: .5s;
+  transition: 0.5s;
   outline: none;
 }
 
@@ -1144,7 +1102,7 @@ textarea:hover {
   background-color: inherit;
   color: #f2ce1b;
   padding: 0.3em 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .button_send_message:hover {
@@ -1154,12 +1112,9 @@ textarea:hover {
   cursor: pointer;
 }
 
-
 /* SECTION IFRAME */
 iframe {
   width: 100%;
   height: 400px;
   margin-bottom: 12em;
 }
-
-

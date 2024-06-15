@@ -21,3 +21,27 @@ function setupMobileMenu() {
 document.addEventListener("DOMContentLoaded", function () {
   setupMobileMenu();
 });
+
+document.getElementById('myForm').addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('textarea').value;
+
+  fetch('http://localhost:3300/api/send-email', {
+      method: 'POST',
+      headers: {
+          'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ name, email, textarea: message }),
+  })
+  .then(response => response.text())
+  .then(data => {
+      alert('Email sent successfully!');
+      document.getElementById('myForm').reset(); // Clear the form
+  })
+  .catch((error) => {
+      console.error('Error:', error);
+  });
+});
