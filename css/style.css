@@ -4,12 +4,12 @@ html {
 }
 
 body {
-  background-color: #1c1c1c;
+  background-color: #0000;
 }
 
 :root {
-  --e-global-color-primary: #0c0c0c;
-  --e-global-color-secondary: #f2ce1b;
+  --e-global-color-primary: #0000;
+  --e-global-color-secondary: #F0EB68;
   --e-global-color-text: #ffffff;
   --e-global-color-accent: #f2a81d;
   --e-global-color-8040bdf: #1c1c1c;
@@ -73,6 +73,7 @@ a {
   margin: 0 auto;
   max-width: 100vw;
   width: 100%;
+  background-color: #0000;
   /* border: 2px solid red; */
 }
 
@@ -92,7 +93,7 @@ header {
   place-content: end;
   align-items: center;
   margin-bottom: 2em;
-  background-color: #0c0c0c;
+  background-color: black;
   padding: 2.2em 0.5em;
   /* position: fixed; */
   z-index: 200;
@@ -145,11 +146,10 @@ ul li a:hover {
   object-fit: cover;
 }
 
-.logo {
+/* .logo {
   background-color: #f2ce1b;
   color: #0c0c0c;
   font-size: 2rem;
-  /* padding: 20px 45px; */
   padding: 1em 1.2em;
   cursor: pointer;
   transition: 0.5s all;
@@ -157,7 +157,7 @@ ul li a:hover {
 .logo:hover {
   background-color: #0c0c0c;
   color: #f2ce1b;
-}
+} */
 
 .logo-location {
   width: 100%;
@@ -386,7 +386,7 @@ ul li a:hover {
 .section6_aboutus_home {
   margin: 0 auto;
   padding: 5% 10%;
-  background-color: #0c0c0c;
+  background-color: #0000;
 }
 
 .about_us_home_div {
@@ -477,7 +477,7 @@ ul li a:hover {
 .button_more {
   padding: 0.3em 1.5em;
   background-color: inherit;
-  color: #f2ce1b;
+  /* color: #F0EB68; */
   transition: 0.5s;
 }
 
@@ -502,7 +502,7 @@ ul li a:hover {
 .button_contact_us {
   display: block;
   margin-inline: auto;
-  color: #f2ce1b;
+  color: #F0EB68;
   background-color: inherit;
   padding: 0.3em 1em;
   transition: 0.5s;
@@ -510,7 +510,6 @@ ul li a:hover {
 
 .button_contact_us:hover {
   color: #0c0c0c;
-  background-color: #f2ce1b;
   transform: translateY(-5%);
   cursor: pointer;
 }
@@ -589,10 +588,10 @@ footer {
 .youtube {
   font-size: 1.2em;
   background-color: inherit;
-  border: 1px solid #f2ce1b;
+  border: 1px solid #F0EB68;
   border-radius: 50%;
   padding: 0.5em;
-  color: #f2ce1b;
+  color: #F0EB68;
   transition: 0.5s ease;
 }
 
@@ -630,7 +629,7 @@ footer {
 .section1_about {
   /* padding-inline: 5%; */
   min-height: 400px;
-  background-color: #0c0c0c;
+  background-color: black;
   /* background-image: url("../photos/33f4a084-96af-40ca-bd38-76d1a7133cc5\ 2.JPG"); */
   /* background-position: center;
   background-size: cover;
@@ -652,11 +651,12 @@ footer {
 }
 
 .company_who_we_are h2 {
-  text-decoration: overline #f2ce1b 5px;
+  text-decoration: overline #F0EB68 5px;
   font-size: 2rem;
 }
 
 .about_company_secnd {
+  color: #F0EB68;
   font-size: 5rem;
   text-align: center;
   margin-top: 0.5em;
@@ -680,6 +680,7 @@ footer {
 /* section founder info */
 .section2_about_us_page {
   padding-bottom: 1%;
+  background-color: #0000;
 }
 
 /* section our team */
@@ -687,7 +688,7 @@ footer {
 .section_meet_our_team {
   margin: 0 auto;
   padding: 5%;
-  background-color: #0c0c0c;
+  background-color: #0000;
   /* border: 2px solid #f2ce1b; */
 }
 
@@ -761,12 +762,12 @@ footer {
 .section2_services {
   margin: 0 auto;
   padding: 10%;
-  background-color: #0c0c0c;
+  background-color: #0000;
 }
 
 .section2_services h2 {
   text-align: center;
-  text-decoration: underline 1px solid #f2ce1b;
+  text-decoration: underline 1px solid #F0EB68;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 1em;
   margin-bottom: 3em;
@@ -814,7 +815,7 @@ footer {
 }
 
 .article_service h2 {
-  text-decoration: underline 1px solid #f2ce1b;
+  text-decoration: underline 1px solid #F0EB68;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 1em;
   margin-bottom: 3em;
