@@ -700,7 +700,8 @@ footer {
 
 .figure_team_professionals {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 4em 1em;
   margin-bottom: 8em;
 }
 
@@ -715,7 +716,7 @@ footer {
 .figure_team_professionals div figcaption img {
   width: 100%;
   height: auto;
-  filter: brightness(95%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
+  /* filter: brightness(95%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg); */
   transition-duration: 0.4s;
   object-fit: cover;
 }
@@ -1021,7 +1022,7 @@ figure {
 
 .section2_contact {
   margin: 0 auto 100px;
-  padding: 10%;
+  padding: 5% 10%;
   display: flex;
   justify-content: space-between;
 }
