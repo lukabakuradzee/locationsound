@@ -1,15 +1,15 @@
 html {
   scroll-behavior: smooth;
-  background-color: #0c0c0c;
+  background-color: black;
 }
 
 body {
-  background-color: #0000;
+  background-color: black;
 }
 
 :root {
   --e-global-color-primary: #0000;
-  --e-global-color-secondary: #F0EB68;
+  --e-global-color-secondary: #f0eb68;
   --e-global-color-text: #ffffff;
   --e-global-color-accent: #f2a81d;
   --e-global-color-8040bdf: #1c1c1c;
@@ -79,7 +79,7 @@ a {
 
 .section1 {
   /* padding-inline: 10%; */
-  min-height: 700px;
+  min-height: 800px;
   background-image: url("../photos/front\ text\ yellow.png");
   background-position: center;
   background-size: cover;
@@ -88,13 +88,14 @@ a {
 
 header {
   width: 100%;
+  height: 100px;
   display: flex;
   /* justify-content: space-between; */
   place-content: end;
   align-items: center;
   margin-bottom: 2em;
   background-color: black;
-  padding: 2.2em 0.5em;
+  padding: 2.2em 0em;
   /* position: fixed; */
   z-index: 200;
 }
@@ -105,7 +106,7 @@ header {
 }
 
 nav {
-  padding-right: 5%;
+  padding-right: 3%;
 }
 
 .show {
@@ -126,13 +127,13 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #F0EB68;
+  color: #f0eb68;
   text-decoration: underline;
   text-underline-offset: 0.5em;
 }
 
 .active {
-  color: #F0EB68;
+  color: #f0eb68;
 }
 
 .logo-box-cont {
@@ -166,13 +167,13 @@ ul li a:hover {
 .company_title_box {
   width: 95%;
   margin-inline: auto;
+  padding-bottom: 2%;
   /* border: 2px solid red; */
 }
 
 .about_company_h1 {
   font-size: 4.688rem;
   line-height: 1.1em;
-  margin-bottom: 0.5em;
   color: #f2ce1b;
 }
 
@@ -502,7 +503,7 @@ ul li a:hover {
 .button_contact_us {
   display: block;
   margin-inline: auto;
-  color: #F0EB68;
+  color: #f0eb68;
   background-color: inherit;
   padding: 0.3em 1em;
   transition: 0.5s;
@@ -517,7 +518,7 @@ ul li a:hover {
 /* FOOTER */
 
 footer {
-  background-color: #0c0c0c;
+  background-color: black;
   padding: 5%;
 }
 
@@ -538,7 +539,7 @@ footer {
 
 .footer_div1 a {
   font-size: 1.2rem;
-  color: #F0EB68;
+  color: #f0eb68;
   font-weight: 200;
 }
 
@@ -563,7 +564,7 @@ footer {
 .mail_icon,
 .phone_icon {
   font-size: 1.5rem;
-  color: #F0EB68;
+  color: #f0eb68;
   transition: 0.5s;
 }
 
@@ -588,10 +589,10 @@ footer {
 .youtube {
   font-size: 1.2em;
   background-color: inherit;
-  border: 1px solid #F0EB68;
+  border: 1px solid #f0eb68;
   border-radius: 50%;
   padding: 0.5em;
-  color: #F0EB68;
+  color: #f0eb68;
   transition: 0.5s ease;
 }
 
@@ -643,7 +644,7 @@ footer {
 .about_page_logo {
   width: 300px;
   height: 90px;
-  background-color: #F0EB68;
+  background-color: #f0eb68;
   object-fit: cover;
 }
 .company_who_we_are {
@@ -651,12 +652,12 @@ footer {
 }
 
 .company_who_we_are h2 {
-  text-decoration: overline #F0EB68 5px;
+  text-decoration: overline #f0eb68 5px;
   font-size: 2rem;
 }
 
 .about_company_secnd {
-  color: #F0EB68;
+  color: #f0eb68;
   font-size: 5rem;
   text-align: center;
   margin-top: 0.5em;
@@ -745,6 +746,7 @@ footer {
 .section1_services {
   /* padding-inline: 10%; */
   min-height: 400px;
+  background-color: black;
   /* background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG");
   background-position: center;
   background-size: cover;
@@ -762,12 +764,12 @@ footer {
 .section2_services {
   margin: 0 auto;
   padding: 10%;
-  background-color: #0000;
+  background-color: black;
 }
 
 .section2_services h2 {
   text-align: center;
-  text-decoration: underline 1px solid #F0EB68;
+  text-decoration: underline 1px solid #f0eb68;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 1em;
   margin-bottom: 3em;
@@ -809,13 +811,14 @@ footer {
 /* ARTICLE SERVICES  */
 
 .article_service {
-  margin: 100px auto;
+  margin: 0 auto;
   padding: 3%;
+  background-color: black;
   /* border: 2px solid #f2ce1b; */
 }
 
 .article_service h2 {
-  text-decoration: underline 1px solid #F0EB68;
+  text-decoration: underline 1px solid #f0eb68;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 1em;
   margin-bottom: 3em;
@@ -876,8 +879,8 @@ footer {
 /* PORTFOLIO PAGE */
 .section1_portfolio {
   /* padding-inline: 10%; */
-  min-height: 220px;
-  background-color: #0c0c0c;
+  /* min-height: 220px; */
+  background-color: #000;
   /* background-image: url("../photos/back6.jpeg");
   background-position: center;
   background-size: cover;
@@ -887,7 +890,6 @@ footer {
 .portfolio_page_header {
   justify-content: space-between;
   align-items: center;
-  margin: 0;
 }
 /* 
 .portfolio_title {
@@ -900,7 +902,7 @@ footer {
 .section2_portfolio {
   padding: 3%;
   margin: 0 auto;
-  background-color: #0c0c0c;
+  background-color: black;
 }
 
 .section2_portfolio h2 {
@@ -908,7 +910,7 @@ footer {
   text-decoration: underline 1px solid #f2ce1b;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 1em;
-  margin: 3em 0;
+  margin: 3em 0em;
 }
 
 figure {
@@ -1010,10 +1012,9 @@ figure {
 
 .contact_page_heading {
   font-size: 3.5rem;
-  color: #F0EB68;
+  color: #f0eb68;
   text-align: end;
   margin-top: 5em;
-  
 }
 
 /* SECTION 2 CONTACT */
@@ -1031,18 +1032,17 @@ figure {
 }
 
 .contact_about_us h2 {
-  text-decoration: overline 1px solid #F0EB68;
+  text-decoration: overline 1px solid #f0eb68;
   text-decoration-thickness: 0.15em;
   margin-bottom: 1.5em;
-  color: #F0EB68;
-
+  color: #f0eb68;
 }
 
 .contact_about_us p {
   line-height: 1.5;
   font-weight: 200;
   margin-bottom: 2em;
-  color: #F0EB68;
+  color: #f0eb68;
 }
 
 .contact_page_icons {
@@ -1055,7 +1055,7 @@ figure {
   margin: 1em 0;
 }
 .contact_page_icons a {
-  color: #F0EB68;
+  color: #f0eb68;
   letter-spacing: 0.7px;
 }
 
@@ -1070,7 +1070,7 @@ form {
 input {
   width: 100%;
   background-color: inherit;
-  border: 2px solid #F0EB68;
+  border: 2px solid #f0eb68;
   border-width: 4px;
   padding: 1em;
   color: #f2a81d;
@@ -1084,14 +1084,14 @@ input:hover {
 }
 
 ::placeholder {
-  color: #F0EB68;
+  color: #f0eb68;
   font-family: var(--e-global-typography-text-font-family);
   font-weight: 200;
 }
 
 textarea {
   background-color: inherit;
-  border: 2px solid #F0EB68;
+  border: 2px solid #f0eb68;
   border-width: 4px;
   padding: 1em;
   color: #f2a81d;
@@ -1106,10 +1106,10 @@ textarea:hover {
 
 .button_send_message {
   background-color: inherit;
-  color: #F0EB68;
+  color: #f0eb68;
   padding: 0.3em 0;
   transition: 0.5s;
-  border: 4px solid #F0EB68;
+  border: 4px solid #f0eb68;
 }
 
 .button_send_message:hover {
