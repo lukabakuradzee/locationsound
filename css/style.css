@@ -172,7 +172,7 @@ ul li a:hover {
   padding: 5% 0;
   margin: 0 auto;
 	display: flex;
-	/* justify-content: center; */
+	justify-content: center;
 	/* align-items: center; */
 	height: 200px;
 	/* background-color: var(--); */
@@ -181,7 +181,7 @@ ul li a:hover {
 .swift-up-text {
   margin: 0;
   letter-spacing: -1px;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 span {
@@ -692,7 +692,7 @@ footer {
   object-fit: cover;
 }
 .company_who_we_are {
-  margin-top: 8em;
+  margin-top: 2em;
 }
 
 .company_who_we_are h2 {
@@ -702,7 +702,7 @@ footer {
 
 .about_company_secnd {
   color: #f0eb68;
-  font-size: 5rem;
+  font-size: rem;
   text-align: center;
   margin-top: 0.5em;
 }
@@ -808,7 +808,7 @@ footer {
 
 .section2_services {
   margin: 0 auto;
-  padding: 10%;
+  padding: 15%;
   background-color: black;
 }
 
@@ -817,7 +817,7 @@ footer {
   text-decoration: underline 1px solid #f0eb68;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 1em;
-  margin-bottom: 3em;
+  margin-bottom: 5em;
 }
 
 .services_box_parent {
