@@ -429,7 +429,7 @@ i {
 
 /* SECTION 6 ABOUT US HOME */
 .section6_aboutus_home {
-  margin: 0 auto;
+  margin: 1em auto;
   padding: 5% 10%;
   background-color: #0000;
 }
@@ -702,15 +702,16 @@ footer {
 
 .about_company_secnd {
   color: #f0eb68;
-  font-size: rem;
+  font-size: 6rem;
   text-align: center;
   margin-top: 0.5em;
 }
 
 /* SECTION 2 ABOUT US / HISTORY OF COMPANY */
 .history_of_company {
+  padding: 0;
   /* border: 2px solid #f2ce1b; */
-  margin: 1em 0 5em;
+  /* margin: 1em 0 5em; */
 }
 
 .history_of_company h2 {
