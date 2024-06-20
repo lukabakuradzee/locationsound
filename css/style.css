@@ -79,11 +79,11 @@ a {
 
 .section1 {
   /* padding-inline: 10%; */
-  min-height: 800px;
+  min-height: 600px;
   /* background-image: url("../photos/locationsoundLogo.jpg"); */
-  background-position: center;
+  /* background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 header {
@@ -169,7 +169,7 @@ ul li a:hover {
 .company_title_box {
   width: 100%;
   /* margin-inline: auto; */
-  padding: 5% 0;
+  padding: 5% 1%;
   margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -215,7 +215,7 @@ i {
 }
 
 .about_company_h1 {
-  font-size: 6.5rem;
+  font-size: 6rem;
   line-height: 1.3em;
   color: #f0eb68;
   text-align: center;
@@ -352,8 +352,8 @@ i {
 .section_our_work {
   margin: 0 auto;
   /* min-height: 1500px; */
-  background-color: #0c0c0c;
-  padding: 10%;
+  background-color: black;
+  padding: 3%;
   /* border: 2px solid red; */
   position: relative;
 }
@@ -368,19 +368,19 @@ i {
   /* border: 2px  solid #f2ce1b; */
   display: flex;
   flex-wrap: wrap;
-  row-gap: 1em;
+  row-gap: 0.5em;
   justify-content: space-between;
   margin-bottom: 3em;
 }
 
 .photo_box1 {
-  width: 32%;
-  transition: 0.8s ease;
+  width: 33%;
+  /* transition: 0.8s ease; */
 }
-
+/* 
 .photo_box1:hover {
   transform: translateY(-10%);
-}
+} */
 
 .ourwork_photo1 {
   width: 100%;
@@ -407,7 +407,7 @@ i {
 
 .button_view_projects {
   background-color: inherit;
-  color: #f2ce1b;
+  color: #f0eb68;
   padding: 0.3em 1em;
   display: block;
   margin-inline: auto;
@@ -536,12 +536,12 @@ i {
 .feel_free_box {
   width: 30%;
   /* border: 2px solid red; */
-  margin-inline: auto;
+  margin: 7em auto;
   text-align: center;
 }
 
 .feel_free_box h2 {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .button_contact_us {
@@ -555,6 +555,7 @@ i {
 
 .button_contact_us:hover {
   color: #0c0c0c;
+  background-color: #f0eb68;
   transform: translateY(-5%);
   cursor: pointer;
 }
@@ -733,7 +734,7 @@ footer {
 
 .section_meet_our_team {
   margin: 0 auto;
-  padding: 5%;
+  padding: 5% 5% 0;
   background-color: #0000;
   /* border: 2px solid #f2ce1b; */
 }
@@ -747,11 +748,12 @@ footer {
   display: flex;
   justify-content: start;
   gap: 4em 1em;
-  margin-bottom: 8em;
+  margin-bottom: 2em;
 }
 
 .employess_info_box {
   width: 24%;
+  cursor: pointer;
 }
 
 .employess_info_box figcaption {
@@ -791,7 +793,7 @@ footer {
 /* SERVICES PAGE */
 .section1_services {
   /* padding-inline: 10%; */
-  min-height: 400px;
+  min-height: 600px;
   background-color: black;
   /* background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG");
   background-position: center;
@@ -809,7 +811,7 @@ footer {
 
 .section2_services {
   margin: 0 auto;
-  padding: 15%;
+  padding: 5% 3%;
   background-color: black;
 }
 
@@ -850,15 +852,18 @@ footer {
 }
 
 .service_box_1 p {
+  font-family: "Inter", sans-serif;
+  font-family: bold;
   margin: 1em 0 1em;
   line-height: 1.3;
+  /* letter-spacing: 1px; */
 }
 
 /* ARTICLE SERVICES  */
 
 .article_service {
   margin: 0 auto;
-  padding: 3%;
+  padding: 3% ;
   background-color: black;
   /* border: 2px solid #f2ce1b; */
 }
@@ -1159,8 +1164,7 @@ textarea:hover {
 }
 
 .button_send_message:hover {
-  background-color: #f2a81d;
-  border-color: #f2a81d;
+  background-color: #f0eb68;
   color: #0c0c0c;
   cursor: pointer;
 }
