@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer");
-require('dotenv').config();
+require("dotenv").config();
 
 const sendEmail = async (req, res) => {
   const { name, email, textarea } = req.body;
@@ -41,7 +41,6 @@ const sendEmail = async (req, res) => {
           </div>
         </div>`,
     };
-
 
     await transporter.sendMail(CustomerMailOptions);
     await transporter.sendMail(adminMailOptions);
