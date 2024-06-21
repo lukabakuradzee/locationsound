@@ -80,6 +80,7 @@ a {
 .section1 {
   /* padding-inline: 10%; */
   min-height: 600px;
+  margin-bottom: 2em;
   /* background-image: url("../photos/locationsoundLogo.jpg"); */
   /* background-position: center;
   background-size: cover;
@@ -301,15 +302,15 @@ i {
 /* SECTION ALL SERVICES */
 .section_allservices {
   margin: 0 auto;
-  padding: 12% 10%;
+  padding: 3% 3% 6%;
   /* border: 2px solid red; */
 }
 
 .allservices_title_box {
   width: 50%;
   /* border: 2px solid red; */
-  margin-inline: auto;
-  margin-bottom: 6em;
+  margin: 4em auto;
+  /* margin-bottom: 6em; */
 }
 
 .allservices_title_box h3 {
@@ -326,13 +327,13 @@ i {
 
 .all_services_list_box {
   padding: 5% 0;
-  border: 2px solid #f2ce1b;
+  border: 2px solid #f0eb68;
   display: flex;
   justify-content: space-around;
 }
 
 .right_angle_icon {
-  color: #f2ce1b;
+  color: #f0eb68;
 }
 
 .list_div {
@@ -344,8 +345,9 @@ i {
 
 .list_div a {
   font-family: var(--e-global-typography-secondary-font-family);
-  color: #f2ce1b;
+  font-size: 1.2rem;
   font-weight: 200;
+  color: #f0eb68;
 }
 
 /* SECTION 4 OUR WORK */
