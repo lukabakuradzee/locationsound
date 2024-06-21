@@ -564,7 +564,7 @@ i {
 
 footer {
   background-color: black;
-  padding: 5%;
+  padding: 5% 5% 3%;
 }
 
 .footer_div_parent {
@@ -596,6 +596,7 @@ footer {
   display: flex;
   place-content: center;
   gap: 2em;
+  margin-bottom: 2em;
   /* border: 2px solid red; */
 }
 
@@ -667,6 +668,10 @@ footer {
   color: #0c0c0c;
   transform: scale(0.9);
   cursor: pointer;
+}
+
+.all_rights_reserved_text {
+  text-align: center;
 }
 
 /* ABOUT PAGE */
