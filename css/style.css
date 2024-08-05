@@ -115,7 +115,7 @@ nav {
 
 .burgermenu,
 .xmark {
-  color: #f2ce1b;
+  color: #f0eb68;
   font-size: 1.8rem;
   display: none;
   cursor: pointer;
@@ -128,7 +128,7 @@ ul li a {
 }
 
 ul li a:hover {
-  color: #f0eb68;
+  color: rgb(240, 235, 104);
   text-decoration: underline;
   text-underline-offset: 0.5em;
 }
@@ -349,6 +349,7 @@ i {
   font-weight: 200;
   color: #f0eb68;
 }
+
 
 /* SECTION 4 OUR WORK */
 .section_our_work {

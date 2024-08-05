@@ -5,14 +5,23 @@
     padding: 0 3% 10% 0;
   }
 
+  header {
+   padding: 0;
+  }
+
  .company_title_box {
   padding-inline: 2%;
 
  }
 
+
  
   .burgermenu {
+    /* color: #f0eb68; */
     display: block;
+  }
+  .xmark {
+    color: #f0eb68;
   }
 
   .menu {
@@ -27,6 +36,8 @@
     top: 0px;
     left: -100%;
     background-color: rgb(12, 12, 12, 85%);
+    /* background-color: rgb(240, 235, 104, 90%); */
+
     z-index: 1;
     transition: 1s ease;
     
