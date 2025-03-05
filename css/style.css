@@ -79,12 +79,12 @@ a {
 
 .section1 {
   /* padding-inline: 10%; */
-  min-height: 600px;
+  min-height: 700px;
   margin-bottom: 2em;
-  /* background-image: url("../photos/Boom_Operator.jpg") !important;
+   background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG") !important;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 header {
@@ -273,7 +273,7 @@ i {
 .capabilities_photo {
   width: 100%;
   height: auto;
-  filter: brightness(80%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+  filter: brightness(90%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
   transition: 1s ease;
 }
 
@@ -843,6 +843,13 @@ footer {
   overflow: hidden;
 }
 
+.service_box_1 h4 {
+  color: #f0eb68;
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: var(--e-global-typography-secondary-font-family);
+}
+
 .service_box_1:hover {
   background-color: #f2ce1b;
 }
@@ -863,6 +870,15 @@ footer {
   margin: 1em 0 1em;
   line-height: 1.3;
   letter-spacing: 0.5px;
+}
+
+.services_details {
+  margin-top: 1.5
+}
+
+.services_details p {
+  margin: 0.2em 0;
+  font-weight: bold;
 }
 
 /* ARTICLE SERVICES  */
