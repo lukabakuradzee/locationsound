@@ -251,6 +251,7 @@ i {
 
 .capabilities_photo_box {
   /* height: 380px; */
+  filter: brightness(95%) contrast(150%) saturate(20%) blur(0px) hue-rotate(0deg);
 }
 
 .capabilities_photo {
@@ -266,9 +267,10 @@ i {
 }
 
 .capabilities_box2 {
+  padding-top: 3rem;
   display: flex;
   flex-direction: column;
-  row-gap: 3em;
+  row-gap: 4.5em;
   width: 45%;
   /* border: 2px solid red; */
 }
@@ -1081,7 +1083,7 @@ figure {
 
 .section2_contact {
   margin: 0 auto 100px;
-  padding: 5% 10%;
+  padding: 5%;
   display: flex;
   justify-content: space-between;
 }
