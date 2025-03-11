@@ -79,9 +79,9 @@ a {
 
 .section1 {
   /* padding-inline: 10%; */
-  min-height: 700px;
+  min-height: 650px;
   margin-bottom: 2em;
-   background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG") !important;
+   background-image: url("../photos/Boom_Operator.jpg") !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -196,23 +196,6 @@ i {
   animation: 0.5s swift-up ease-in-out forwards;
 }
 
-@keyframes swift-up {
-  to {
-    top: 0;
-  }
-}
-
-@media screen and (max-width: 1920px) {
-  /* .company_title_box{
-      width: auto;
-      margin: 0;
-  } */
-
-  :root {
-    /* font-size: 35px; */
-  }
-}
-
 .about_company_h1 {
   font-size: 6rem;
   line-height: 1.2em;
@@ -238,7 +221,7 @@ i {
 /* SECTION 2 CAPABILITIES */
 .section_capabilities {
   margin: 0 auto;
-  padding: 5% 10%;
+  padding: 5%;
   display: flex;
   justify-content: space-between;
   /* border: 2px solid red; */
