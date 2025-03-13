@@ -1,26 +1,23 @@
 @media (max-width: 1024px) {
   /* section1 */
 
-  .section1 {
-    padding: 0 3% 10% 0;
-  }
-
   header {
-   padding: 0;
+   padding-right: 1rem;
   }
 
  .company_title_box {
-  padding-inline: 2%;
+  padding-inline: 1%;
 
  }
 
-
  
   .burgermenu {
+    top: 0;
     /* color: #f0eb68; */
     display: block;
   }
   .xmark {
+    top: 0;
     color: #f0eb68;
   }
 
@@ -47,8 +44,6 @@
   .show {
     left: 0;
   }
-
-  
 
   /* SECTION 2 CAPABILITIES */
   .section_capabilities {
@@ -93,19 +88,28 @@ footer {
 /* ABOUT PAGE */
 
 .section1_about {
-    padding: 0 3% 10% 0;
+    padding: 0 3% 5% 0;
   }
+
 
  .company_who_we_are {
   padding-inline: 2%;
-  margin-top: 10em;
-  width: 70%;
-
-
+  margin-top: 0em;
+  width: 100%;
  }
+
+.about_company_secnd {
+  padding-top: 0;
+  margin-top: 0;
+} 
 
  .history_of_company {
   padding-inline: 3%;
+ }
+
+ .section2_about_us_page {
+  margin-top: 3em;
+  padding-inline: 2rem;
  }
 
  /* section  meet our team */
@@ -116,22 +120,12 @@ footer {
  .figure_team_professionals {
    flex-wrap: wrap;
    row-gap: 2em;
-   
 
  }
 
  .employess_info_box {
-  width: 48%;
+  width: 40%;
  }
-
-
-
-
-
-
-
-
-
 
 
 /* SERVICE PAGE */
@@ -174,8 +168,6 @@ footer {
 /* PORTFOLIO PAGE */
 .section1_portfolio {
   padding: 0 3% 10% 0;
-
-
 }
 
 /* SECTION 2  */
@@ -188,6 +180,14 @@ footer {
   margin: 2em 0;
 }
 
+.figure_team_professionals {
+  gap: 5em 1em;
+}
+
+.employess_info_box {
+  width: 48%;
+}
+
 figure {
   justify-content: space-evenly;
   gap: 2em;
@@ -197,7 +197,7 @@ figure {
 
 .card_portfolio1 {
   width: 37%;
-  height: 500px;
+  height: 450px;
 }
 
 .cards_overlay2 h3 {
@@ -211,8 +211,8 @@ figure {
 
 
 /* CONTACT PAGE */
-.section1_contact{
-  padding: 0 3% 10% 0;
+.section1_contact {
+  min-height: 500px;
 }
 
 .section2_contact {

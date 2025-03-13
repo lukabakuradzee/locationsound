@@ -586,8 +586,7 @@ footer {
 
 .facebook,
 .instagram,
-.twitter,
-.youtube {
+.linkedin {
   font-size: 1.2em;
   background-color: inherit;
   border: 1px solid #f0eb68;
@@ -719,7 +718,6 @@ footer {
 }
 
 
-
 .employess_info_box figcaption {
   overflow: hidden;
 }
@@ -752,6 +750,7 @@ footer {
 }
 .worker_name p {
   font-size: 1.1rem;
+  letter-spacing: 1px;
 }
 
 /* SERVICES PAGE */
@@ -890,6 +889,7 @@ footer {
   overflow: hidden;
   transition: 1s ease;
   display: none;
+  cursor: pointer;
 }
 
 .cards_overlay h3 {
@@ -1071,16 +1071,16 @@ figure {
   margin-bottom: 1.5em;
   color: #f0eb68;
 }
-
+/* 
 .contact_about_us p {
   line-height: 1.5;
   font-weight: 200;
   margin-bottom: 2em;
   color: #f0eb68;
-}
+} */
 
 .contact_page_icons {
-  display: flex;
+  display:flex;
   gap: 1em;
   align-items: center;
 }

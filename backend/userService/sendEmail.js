@@ -21,7 +21,7 @@ const sendEmail = async (req, res) => {
         <div style="font-family: Arial, sans-serif; text-align: center; padding: 20px; background-color: black;">
         <div style="max-width: 600px; margin: auto; padding: 20px; border-radius: 5px; color: #f0eb68">
           <img src="https://i.imgur.com/yNbUvfl.png" alt="Logo" style="max-width: 400px; margin-bottom: 15px;">
-          <h2>Thank you for contacting us, one of our team members will replay as soon as possible. </h2>
+          <h2>Thank you for contacting location tbilisi sound, one of our team members will replay as soon as possible. </h2>
           <p style="margin-top: 20px;">If you did not sent this, please ignore this email</p>
         </div>
       </div>`,
