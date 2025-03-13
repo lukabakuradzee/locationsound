@@ -20,6 +20,10 @@
     text-align: center;
   }
 
+  .section2_about_us_page {
+    padding: 1rem; 
+  }
+
   .button_find_out {
     display: block;
     margin-inline: auto;
@@ -40,6 +44,14 @@
     width: 100%;
   }
 
+  .capabilities_info_box h3 {
+    text-align: center;
+  }
+
+  .capabilities_info_box p {
+    text-align: center;
+  }
+
   /* section 4 OUR WORK */
   .section_our_work {
     padding: 0% 3% 10%;
@@ -55,16 +67,10 @@
   }
 
 
-  /* section 5 clients */
-
-  .section_clients {
-    padding: 8% 3%;
-  }
-
   /* section 6 about us home */
 
   .section6_aboutus_home {
-    padding: 15% 0;
+    padding: 1rem;
   }
 
   .about_us_home_div {
@@ -77,13 +83,16 @@
 
   /* about page */
   .section1_about {
-    min-height: 450px;
+    min-height: 300px;
   }
 
   .company_who_we_are {
     width: 100%;
     padding-inline: 3%;
-    margin-top: 10em;
+    margin-top: 3em;
+  }
+
+  .company_title_box {
   }
 
   .about_company_secnd {
@@ -101,11 +110,16 @@
 
   .history_of_company_paragraph {
     text-align: justify;
+    font-size: 1.2rem;
   }
 
   /* section our team */
   .section_meet_our_team {
     padding: 0 3% 10%;
+  }
+
+  .employess_info_box figcaption {
+    height: 450px;
   }
 
   .section_meet_our_team h2 {
@@ -126,7 +140,12 @@
 
   /* services page */
   .section1_services {
-    min-height: 450px;
+    min-height: 350px;
+  }
+
+  .about_company_secnd {
+    text-align: center;
+    line-height: 1.5;
   }
 
   .section2_services {
@@ -146,33 +165,35 @@
 
    /* portfolio page */
    .section1_portfolio {
-    min-height: 450px;
+    min-height: 100px;
+   }
+
+   .figure_team_professionals_portfolio {
+    flex-direction: row;
+    flex-wrap: wrap;
 
    }
 
-   .portfolio_title {
-    width: 100%;
-    margin-top: 10em;
+   .portfolio_info_box figcaption {
+     height: 300px;
    }
 
-   /* section 2 */
-   figure {
-    flex-direction: column;
-    row-gap: 1.5em;
+   .portfolio_info_box {
+    width: 48%;
    }
 
-   .card_portfolio1 {
-    width: 100%;
+   .portfolio_project_name h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
    }
 
-   .card_portfolio1 {
-    height: 600px;
-   }
 
    /* contact page */
    .section1_contact {
-    min-height: 450px;
+    min-height: 350px;
    }
+
+   
 
    /* section 2  */
    .section2_contact {
