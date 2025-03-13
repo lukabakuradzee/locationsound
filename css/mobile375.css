@@ -7,10 +7,26 @@
     width: 258px;
   }
 
+  .company_title_box {
+    padding: 1rem;
+  }
+
 
  .footer_nav {
   display: none;
  }
+
+ .footer_div_parent {
+  row-gap: 5rem;
+ }
+
+/* about us page */
+.section_meet_our_team {
+  padding-bottom: 5%;
+}
+
+
+ 
 
  /* service page */
  .article_cards_parent {

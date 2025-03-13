@@ -57,14 +57,14 @@
     padding: 0% 3% 10%;
   }
 
-  .ourwork_box_photo {
+  /* .ourwork_box_photo {
     flex-direction: column;
-  }
+  } */
 
-  .photo_box1 {
+  /* .photo_box1 {
     width: 100%;
     height: 300px;
-  }
+  } */
 
 
   /* section 6 about us home */
@@ -118,9 +118,9 @@
     padding: 0 3% 10%;
   }
 
-  .employess_info_box figcaption {
+  /* .employess_info_box figcaption {
     height: 450px;
-  }
+  } */
 
   .section_meet_our_team h2 {
     line-height: 1.3;
@@ -167,25 +167,25 @@
    .section1_portfolio {
     min-height: 100px;
    }
-
+/* 
    .figure_team_professionals_portfolio {
     flex-direction: row;
     flex-wrap: wrap;
 
-   }
+   } */
 
-   .portfolio_info_box figcaption {
+   /* .portfolio_info_box figcaption {
      height: 300px;
-   }
+   } */
 
-   .portfolio_info_box {
+   /* .portfolio_info_box {
     width: 48%;
-   }
+   } */
 
-   .portfolio_project_name h3 {
+   /* .portfolio_project_name h3 {
     font-size: 1.2rem;
     line-height: 1.2;
-   }
+   } */
 
 
    /* contact page */
