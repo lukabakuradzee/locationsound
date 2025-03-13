@@ -167,25 +167,25 @@
    .section1_portfolio {
     min-height: 100px;
    }
-/* 
+
    .figure_team_professionals_portfolio {
     flex-direction: row;
     flex-wrap: wrap;
 
-   } */
+   }
 
-   /* .portfolio_info_box figcaption {
+   .portfolio_info_box figcaption {
      height: 300px;
-   } */
+   }
 
-   /* .portfolio_info_box {
+   .portfolio_info_box {
     width: 48%;
-   } */
+   }
 
-   /* .portfolio_project_name h3 {
+   .portfolio_project_name h3 {
     font-size: 1.2rem;
     line-height: 1.2;
-   } */
+   }
 
 
    /* contact page */
