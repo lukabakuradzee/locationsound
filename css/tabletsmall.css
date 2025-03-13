@@ -1,5 +1,9 @@
 @media (max-width: 768px) {
   /* section 1 home */
+
+  .section1 {
+    min-height: 400px;
+  }
   
 .menu {
   width: 318px;
@@ -10,20 +14,28 @@
 
 .burgermenu,
 .xmark {
-  color:#f2ce1b;
+  color:#f0eb68;
   font-size: 1.5rem;
 } 
 
 
 .about_company_h1 {
   font-size: 3.5rem;
-  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 /* section 2 capabilities */
 
 .capabilities_box2 {
-  row-gap: 4.5em;
+  row-gap: 2em;
+}
+
+.capabilities_text {
+  font-size: 2rem;
+}
+
+.capabilities_photo {
+  height: 400px;
 }
 
 
@@ -34,9 +46,14 @@
 
 
 /* section 4 our work */
-
+.ourwork_box_photo {
+}
 .photo_box1 {
-  width: 100%;
+  width: 49%;
+
+}
+.ourwork_photo1 {
+  height: 300px;
 }
 
 .photo_box1:hover {
@@ -45,9 +62,6 @@
 
 
 /* SECTION 6 about us home */
-.div_founder_info {
-  margin-bottom: 5em;
-}
 
 footer {
   padding: 10% 3%;
@@ -58,44 +72,88 @@ footer {
   align-items: center;
 }
 
-
-/* about page */
-/* .achi_about_home h2, h3 {
-  text-align: center;
-} */
-
-
-.div_founder_info {
-  flex-direction: column;
-  row-gap: 2em;
+/* about us page */
+.section1_about {
+  padding: 0;
+  min-height: 300px;
+}
+.about_company_h1 {
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0;
 }
 
-.button_more {
-  display: block;
-  margin-inline: auto;
+.company_title_box {
+  padding: 5% 1% 0;
 }
 
-.founder_photo_box {
-  width: 100%;
-}
-
-.achi_about_home {
-  width: 100%;
+.section6_aboutus_home {
+  margin-top: 0;
+  padding-top: 0%;
 }
 
 
+.employess_info_box {
+  width: 45%;
+}
+
+.worker_name p {
+  font-size: 0.9rem;
+}
+
+/* service page */
+
+.section1_services {
+  padding: 0;
+  min-height: 300px;
+}
+
+.company_title_box {
+  padding: 2rem;
+}
+
+.about_company_h1 {
+  font-size: 2.5rem;
+}
+
+.section2_services h2 {
+  margin-bottom: 3em;
+}
 
 /* portfolio page */
 
-.card_portfolio1 {
-  width: 46%;
+.figure_team_professionals {
+  gap: 3em 0.7em;
+}
+
+.portfolio_info_box {
+  width: 32%;
+}
+.worker_name h3 {
+  font-size: 1.2rem;
 }
 
 .contact_heading_title {
   width: 100%;
 }
 
+
+/* contact page */
+.section1_contact {
+  min-height: 400px;
 }
+
+.contact_about_us h2 {
+  font-size: 3rem;
+}
+
+.section2_contact {
+  margin-bottom: 2rem;
+}
+
+}
+
+
 
 
 @media (max-width: 570px) {

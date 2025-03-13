@@ -13,7 +13,7 @@
  
   .burgermenu {
     top: 0;
-    /* color: #f0eb68; */
+    color: #f0eb68;
     display: block;
   }
   .xmark {
@@ -166,9 +166,7 @@ footer {
 }
 
 /* PORTFOLIO PAGE */
-.section1_portfolio {
-  padding: 0 3% 10% 0;
-}
+
 
 /* SECTION 2  */
 
