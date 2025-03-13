@@ -81,7 +81,7 @@ a {
   /* padding-inline: 10%; */
   min-height: 650px;
   margin-bottom: 2em;
-   background-image: url("../photos/Boom_Operator.jpg") !important;
+   background-image: url("../photos/1BA99460-F404-4342-90E6-AD5AE6FA0512.JPG") !important;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -136,30 +136,7 @@ ul li a:hover {
 .active {
   color: #f0eb68;
 }
-/* 
-.logo-box-cont {
-  width: 350px;
-  height: 80px;
-}
 
-.logo-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
-/* .logo {
-  background-color: #f2ce1b;
-  color: #0c0c0c;
-  font-size: 2rem;
-  padding: 1em 1.2em;
-  cursor: pointer;
-  transition: 0.5s all;
-}
-.logo:hover {
-  background-color: #0c0c0c;
-  color: #f2ce1b;
-} */
 
 .logo-location {
   width: 100%;
@@ -168,7 +145,7 @@ ul li a:hover {
 .company_title_box {
   width: 100%;
   /* margin-inline: auto; */
-  padding: 5% 1%;
+  padding: 8% 1%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -351,7 +328,6 @@ i {
 }
 
 .ourwork_box_photo {
-  /* border: 2px  solid #f2ce1b; */
   display: flex;
   flex-wrap: wrap;
   row-gap: 0.5em;
@@ -361,27 +337,20 @@ i {
 
 .photo_box1 {
   width: 33%;
-  /* transition: 0.8s ease; */
 }
-/* 
-.photo_box1:hover {
-  transform: translateY(-10%);
-} */
 
 .ourwork_photo1 {
   width: 100%;
   height: 350px;
   object-fit: cover;
-  /* filter: brightness(70%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg); */
 }
 
 .third_photo_wide {
-  width: 100%;
-  height: 500px;
+  width: 49.7%;
+  height: 350px;
   object-fit: cover;
   overflow: hidden;
   display: flex;
-  /* filter: brightness(90%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg); */
 }
 
 .third_photo_wide img {
