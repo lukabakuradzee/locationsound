@@ -140,10 +140,11 @@ ul li a:hover {
 
 .company_title_box {
   width: 100%;
-  padding: 8% 1%;
+  padding: 5%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  line-height: 1.2;
   height: 200px;
 }
 
@@ -454,7 +455,6 @@ i {
 .button_more {
   padding: 0.3em 1.5em;
   background-color: inherit;
-  /* color: #F0EB68; */
   transition: 0.5s;
 }
 
@@ -606,7 +606,7 @@ footer {
 
 /* SECTION 1  */
 .section1_about {
-  min-height: 400px;
+  min-height: 500px;
   background-color: black;
 }
 .about_page_header {
@@ -620,7 +620,8 @@ footer {
   object-fit: cover;
 }
 .company_who_we_are {
-  margin-top: 2em;
+  padding: 0;
+  /* margin-top: 2em; */
 }
 
 .company_who_we_are h2 {
@@ -633,7 +634,7 @@ footer {
   font-size: 6rem;
   text-align: center;
   line-height: 1em;
-  margin-top: 0.5em;
+  margin: 0.5em 2em;
 }
 
 /* SECTION 2 ABOUT US / HISTORY OF COMPANY */
@@ -655,7 +656,7 @@ footer {
 /* section founder info */
 .section2_about_us_page {
   padding: 1% 10%;
-  margin-bottom: 5em;
+  margin: 5em 0 5em;
   background-color: #0000;
 }
 
@@ -725,9 +726,12 @@ footer {
 
 /* SERVICES PAGE */
 .section1_services {
-  /* padding-inline: 10%; */
   min-height: 600px;
-  background-color: black;
+  background-image: url("../photos/133c635b-2e55-41c3-b774-7515e8930b0a\ 2.JPG");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: black; */
 }
 
 .service_page_header {
@@ -962,7 +966,6 @@ figure {
 /* CONTACT PAGE */
 .section1_contact {
   margin: 0 auto;
-  /* padding-inline: 10%; */
   min-height: 650px;
   background-image: url("../photos/af583ebe-d990-4a9a-b74b-b0d576eb05c8\ 2.JPG");
   background-position: center;
@@ -1018,7 +1021,6 @@ figure {
 
 form {
   width: 50%;
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   row-gap: 1em;
